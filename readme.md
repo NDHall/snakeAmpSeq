@@ -47,8 +47,8 @@ so for `Met not M` and it should end in the AA position. See example below.
 ```
 $ cd resources/downloads
 $ sftp <someUserName>@<some server>
-# you are now on server
-$ cd <into dir containg reads>
+# you are now on the server
+$ cd <into dir containing reads>
 $ get *.gz
 $ <ctrl-d> # to exit sftp
 # You are back in resources/downloads
@@ -56,23 +56,23 @@ $ <ctrl-d> # to exit sftp
 2. Check to see if files end  `left=<uniq_id>_R1_001.fastq.gz`, and 
 `<right=<uniq_id>_R2_002.fastq.gz>` if not you can use an approach below.
 ```
-for r in *<right_id>.fastq.gz 
-do 
- new_r=$( echo ${r} | sed s/<right_id.*>/_R2_002.fastq.gz/ )
- ln -s ${r} ${new_r}
-done 
+$ for r in *<right_id>.fastq.gz 
+$ do 
+$ new_r=$( echo ${r} | sed s/<right_id.*>/_R2_002.fastq.gz/ )
+$ ln -s ${r} ${new_r}
+$ done 
 
 
-for l in *<left_id>.fastq.gz 
-do 
- new_l=$( echo ${l} | sed s/<left_id.*>/_R1_001.fastq.gz/ )
- ln -s ${l} ${new_l}
-done 
+$ for l in *<left_id>.fastq.gz 
+$ do 
+$  new_l=$( echo ${l} | sed s/<left_id.*>/_R1_001.fastq.gz/ )
+$  ln -s ${l} ${new_l}
+$ done 
 
 ```
 or you can change the coding in the actual Snakefile.
 
-3. Once the files are in downloads and properly labeled. `conda_runner.sh`
+3. Once the files are in `resources/downloads` and properly labeled. `conda_runner.sh`
 will run the snakeAmpSeq pipeline if anaconda3 is in your path.
 ```
 
