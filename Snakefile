@@ -1,5 +1,7 @@
 """
-This is a comment!
+This pipeline takes as input ampseq reads maps them to user defined references using bowtie2.
+The user must provide bowtie2 indexes and target site files. The default sequences available with
+this repository are of Poa annua (annual bluegrass). 
 
 """
 
