@@ -1,17 +1,16 @@
 #!/bin/bash 
 
-#---------------------------------------------
+#--------------------------------------------------#
 #
-#	BASH script for running snakemake
-#	Pipeline (Sure this could eventually
-#       be made into a pure python/conda 
-#       solution)
+#	BASH script for running a snakemake pipeline
 #                    
-#----------------------------------------------
+#-------------------------------------------------#
 
 #==============================================
 # set diretory
 #==============================================
+
+
 dir=$( pwd )
 
 cur1=$( echo ${dir} | rev | cut -d'/' -f 1 | rev )
@@ -55,39 +54,59 @@ else
 fi
 
 
-#==============================================
+#============================================
 # set env here we find local install of conda
 # in the path and then setup the script to
 # find users version of conda
-#==============================================
+# ${CONDA_PREFIX} is a variable in the BASH env
+# If you have conda installed and run into trouble
+# check to see that this variable is set in
+# your BASH env `env | grep CONDA_PREFIX
+# if it is not set, you may need to set it
+# on the fly in your shell or in your .bashrc
+#============================================
 
-conda_path=$( which anaconda  )
-
-if [ $( echo ${conda_path} |wc -c ) -lt 6 ]
-then
-conda_path=$( which conda )
-fi
-
-conda_count=$( echo ${conda_path} | wc -c )
-conda_dir=$( echo ${conda_path} | rev |cut -d'/' -f 3- |rev )
-
-if [ ${conda_count} -lt 6 ];
+if [ $( echo ${CONDA_PREFIX} | wc -c ) -lt 3 ];
 then
 	echo "\
-	This program requires neither conda or nor anaconda found in pathwgigit
+	neither conda or nor anaconda found in path
 	"&& exit
 fi
 
 
 
-PATH=${PATH}:${conda_dir}/bin
+PATH=${PATH}:${CONDA_PREFIX}/bin
 set -x
 set -e 
 # activate the conda env
-source ${conda_dir}/etc/profile.d/conda.sh
-conda activate ${conda_dir}/envs/snakemake-mapping/
+source ${CONDA_PREFIX}/etc/profile.d/conda.sh
 
-# get the stems we need from refs:
+# determine if the snakemake-mapping has already been installed
+
+if [ ! -d ${CONDA_PREFIX}/envs/snakemake-mapping/ ]
+then
+    # if not installed go ahead and create it now using the following command
+    # that implements environment file which it finds via the relative path.
+    # the name is in the snakeAmpSeq_environment.yml
+    conda env create --file workflow/envs/snakeAmpSeq_environment.yml
+fi
+# now we can activate  the file
+conda activate ${CONDA_PREFIX}/envs/snakemake-mapping/
+
+
+#============================================
+# Now we can run the snakemake
+# pipeline. It takes stems from
+#  resources/downloads folder
+# and executes snakemake using the stems.
+# note that the stems assume that your
+# fastq files are still compressed.
+# additionally, and mentioned in the
+# quick start, they should end in
+#`left=<uniq_id>_R1_001.fastq.gz`, and
+#`<right=<uniq_id>_R2_002.fastq.gz>`
+#============================================
+
 
 Y=`ls resources/downloads/*gz | rev| cut -d'/' -f -1 | rev | cut -d'_' -f -1 | sort | uniq`
 
