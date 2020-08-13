@@ -1,0 +1,709 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "appdirs",
+    "configargparse",
+    "datrie",
+    "docutils",
+    "gitpython",
+    "jsonschema",
+    "psutil",
+    "python >=3.5",
+    "pyyaml",
+    "ratelimiter",
+    "requests >=2.8.1",
+    "setuptools",
+    "wrapt"
+  ],
+  "extracted_package_dir": "/home/ndh0004/anaconda3/pkgs/snakemake-minimal-5.4.5-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/snakemake-5.4.5.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/snakemake-5.4.5.dist-info/METADATA",
+    "lib/python3.6/site-packages/snakemake-5.4.5.dist-info/RECORD",
+    "lib/python3.6/site-packages/snakemake-5.4.5.dist-info/WHEEL",
+    "lib/python3.6/site-packages/snakemake-5.4.5.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/snakemake-5.4.5.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/snakemake/__init__.py",
+    "lib/python3.6/site-packages/snakemake/__main__.py",
+    "lib/python3.6/site-packages/snakemake/_version.py",
+    "lib/python3.6/site-packages/snakemake/benchmark.py",
+    "lib/python3.6/site-packages/snakemake/checkpoints.py",
+    "lib/python3.6/site-packages/snakemake/common.py",
+    "lib/python3.6/site-packages/snakemake/conda.py",
+    "lib/python3.6/site-packages/snakemake/cwl.py",
+    "lib/python3.6/site-packages/snakemake/dag.py",
+    "lib/python3.6/site-packages/snakemake/decorators.py",
+    "lib/python3.6/site-packages/snakemake/exceptions.py",
+    "lib/python3.6/site-packages/snakemake/executors.py",
+    "lib/python3.6/site-packages/snakemake/gui.html",
+    "lib/python3.6/site-packages/snakemake/gui.py",
+    "lib/python3.6/site-packages/snakemake/io.py",
+    "lib/python3.6/site-packages/snakemake/jobs.py",
+    "lib/python3.6/site-packages/snakemake/jobscript.sh",
+    "lib/python3.6/site-packages/snakemake/logging.py",
+    "lib/python3.6/site-packages/snakemake/output_index.py",
+    "lib/python3.6/site-packages/snakemake/parser.py",
+    "lib/python3.6/site-packages/snakemake/persistence.py",
+    "lib/python3.6/site-packages/snakemake/remote/EGA.py",
+    "lib/python3.6/site-packages/snakemake/remote/FTP.py",
+    "lib/python3.6/site-packages/snakemake/remote/GS.py",
+    "lib/python3.6/site-packages/snakemake/remote/HTTP.py",
+    "lib/python3.6/site-packages/snakemake/remote/NCBI.py",
+    "lib/python3.6/site-packages/snakemake/remote/S3.py",
+    "lib/python3.6/site-packages/snakemake/remote/S3Mocked.py",
+    "lib/python3.6/site-packages/snakemake/remote/SFTP.py",
+    "lib/python3.6/site-packages/snakemake/remote/XRootD.py",
+    "lib/python3.6/site-packages/snakemake/remote/__init__.py",
+    "lib/python3.6/site-packages/snakemake/remote/dropbox.py",
+    "lib/python3.6/site-packages/snakemake/remote/gfal.py",
+    "lib/python3.6/site-packages/snakemake/remote/gridftp.py",
+    "lib/python3.6/site-packages/snakemake/remote/iRODS.py",
+    "lib/python3.6/site-packages/snakemake/remote/webdav.py",
+    "lib/python3.6/site-packages/snakemake/report.css",
+    "lib/python3.6/site-packages/snakemake/report/__init__.py",
+    "lib/python3.6/site-packages/snakemake/report/report.html",
+    "lib/python3.6/site-packages/snakemake/rules.py",
+    "lib/python3.6/site-packages/snakemake/scheduler.py",
+    "lib/python3.6/site-packages/snakemake/script.py",
+    "lib/python3.6/site-packages/snakemake/shell.py",
+    "lib/python3.6/site-packages/snakemake/singularity.py",
+    "lib/python3.6/site-packages/snakemake/stats.py",
+    "lib/python3.6/site-packages/snakemake/utils.py",
+    "lib/python3.6/site-packages/snakemake/workflow.py",
+    "lib/python3.6/site-packages/snakemake/wrapper.py",
+    "bin/snakemake",
+    "bin/snakemake-bash-completion",
+    "lib/python3.6/site-packages/snakemake/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/benchmark.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/checkpoints.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/common.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/conda.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/cwl.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/dag.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/decorators.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/exceptions.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/executors.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/gui.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/io.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/jobs.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/logging.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/output_index.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/persistence.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/EGA.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/FTP.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/GS.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/HTTP.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/NCBI.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/S3.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/S3Mocked.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/SFTP.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/XRootD.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/dropbox.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/gfal.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/gridftp.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/iRODS.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/remote/__pycache__/webdav.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/report/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/rules.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/scheduler.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/script.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/shell.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/singularity.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/stats.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/utils.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/workflow.cpython-36.pyc",
+    "lib/python3.6/site-packages/snakemake/__pycache__/wrapper.cpython-36.pyc"
+  ],
+  "fn": "snakemake-minimal-5.4.5-py_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/ndh0004/anaconda3/pkgs/snakemake-minimal-5.4.5-py_0",
+    "type": 1
+  },
+  "md5": "b47147f7bd3eba09ce211a45f24f0ee3",
+  "name": "snakemake-minimal",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ndh0004/anaconda3/pkgs/snakemake-minimal-5.4.5-py_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/snakemake-5.4.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/snakemake-5.4.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8b33356ece8c7785986c9e422a0311ad829808510dbeb6e6495ef5aaad952756",
+        "sha256_in_prefix": "8b33356ece8c7785986c9e422a0311ad829808510dbeb6e6495ef5aaad952756",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "site-packages/snakemake-5.4.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c868e8126261cc9096ad15522db40aa486cb47cc11b8ada44555c8feb37646bb",
+        "sha256_in_prefix": "c868e8126261cc9096ad15522db40aa486cb47cc11b8ada44555c8feb37646bb",
+        "size_in_bytes": 6714
+      },
+      {
+        "_path": "site-packages/snakemake-5.4.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "baf39fb0fb9ef4a5ce2ee9816955f321a536d8664d87a644231a3193a30dce7c",
+        "sha256_in_prefix": "baf39fb0fb9ef4a5ce2ee9816955f321a536d8664d87a644231a3193a30dce7c",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/snakemake-5.4.5.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "bafd9f5613530a64544bdb94f73ea5a53cd7e7c4a4ceffb441466fbf823d8c15",
+        "sha256_in_prefix": "bafd9f5613530a64544bdb94f73ea5a53cd7e7c4a4ceffb441466fbf823d8c15",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/snakemake-5.4.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a2507f43663e32c1b3994011558ec09ea2db34b023b5a89d917cdb078d68539d",
+        "sha256_in_prefix": "a2507f43663e32c1b3994011558ec09ea2db34b023b5a89d917cdb078d68539d",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/snakemake/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "faf95bd37851c8480d3649545082eea90796059aa724055695a5fe10829b49fe",
+        "sha256_in_prefix": "faf95bd37851c8480d3649545082eea90796059aa724055695a5fe10829b49fe",
+        "size_in_bytes": 76411
+      },
+      {
+        "_path": "site-packages/snakemake/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "046f6a875ffb9e2f3229bff0f174ff28412ca857558ec1b3a63f5d575f0cd963",
+        "sha256_in_prefix": "046f6a875ffb9e2f3229bff0f174ff28412ca857558ec1b3a63f5d575f0cd963",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/snakemake/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e92fbbd7e5f6e83bd52849aabe505a68c869b4a991822724633306e9b55070d1",
+        "sha256_in_prefix": "e92fbbd7e5f6e83bd52849aabe505a68c869b4a991822724633306e9b55070d1",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/snakemake/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "a5f9228a22704d2f690f5ba9401ef4ca97aefefc573a75a88299bc3097e217a6",
+        "sha256_in_prefix": "a5f9228a22704d2f690f5ba9401ef4ca97aefefc573a75a88299bc3097e217a6",
+        "size_in_bytes": 9255
+      },
+      {
+        "_path": "site-packages/snakemake/checkpoints.py",
+        "path_type": "hardlink",
+        "sha256": "c6aaaf0c51b91df561ab6a76276017cb5b9c0dca533df8ec646bc77ece91a5ad",
+        "sha256_in_prefix": "c6aaaf0c51b91df561ab6a76276017cb5b9c0dca533df8ec646bc77ece91a5ad",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "site-packages/snakemake/common.py",
+        "path_type": "hardlink",
+        "sha256": "35c91c287ec4f461315f2aebca2b28d521710363782d5ec480947082315ebf8f",
+        "sha256_in_prefix": "35c91c287ec4f461315f2aebca2b28d521710363782d5ec480947082315ebf8f",
+        "size_in_bytes": 1998
+      },
+      {
+        "_path": "site-packages/snakemake/conda.py",
+        "path_type": "hardlink",
+        "sha256": "40c6ebe7583a36c0a65dd436576a455d105a66a963f96a1bb692fdef0bb828d4",
+        "sha256_in_prefix": "40c6ebe7583a36c0a65dd436576a455d105a66a963f96a1bb692fdef0bb828d4",
+        "size_in_bytes": 15283
+      },
+      {
+        "_path": "site-packages/snakemake/cwl.py",
+        "path_type": "hardlink",
+        "sha256": "6913bcead4433f510dde9a0ec4ef19a13c3691bf8880b0bcb2f4c1d5eea98131",
+        "sha256_in_prefix": "6913bcead4433f510dde9a0ec4ef19a13c3691bf8880b0bcb2f4c1d5eea98131",
+        "size_in_bytes": 9156
+      },
+      {
+        "_path": "site-packages/snakemake/dag.py",
+        "path_type": "hardlink",
+        "sha256": "fc10c03fbc1267823ba0107767e3020ad5e6f1b1f261e3ffda05abab235b47e6",
+        "sha256_in_prefix": "fc10c03fbc1267823ba0107767e3020ad5e6f1b1f261e3ffda05abab235b47e6",
+        "size_in_bytes": 61653
+      },
+      {
+        "_path": "site-packages/snakemake/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "cf5fe60298d637cfa1072b3c14e68f212d4e19968b2edb171c21078b5554240e",
+        "sha256_in_prefix": "cf5fe60298d637cfa1072b3c14e68f212d4e19968b2edb171c21078b5554240e",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "site-packages/snakemake/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "31c79160821871e44a4d80ddb2a240adf8665c4dbd47da2aa894f503bb41168d",
+        "sha256_in_prefix": "31c79160821871e44a4d80ddb2a240adf8665c4dbd47da2aa894f503bb41168d",
+        "size_in_bytes": 15169
+      },
+      {
+        "_path": "site-packages/snakemake/executors.py",
+        "path_type": "hardlink",
+        "sha256": "153dac9d2ad3eb1bc1379a93d329b61efe7825e8e0db7538e948a5b8f4d02d61",
+        "sha256_in_prefix": "153dac9d2ad3eb1bc1379a93d329b61efe7825e8e0db7538e948a5b8f4d02d61",
+        "size_in_bytes": 58965
+      },
+      {
+        "_path": "site-packages/snakemake/gui.html",
+        "path_type": "hardlink",
+        "sha256": "15f9b1a698fa6cc76dba2ad86f6bd8f10b8b7bacea92c511f92c9c342e46aaaa",
+        "sha256_in_prefix": "15f9b1a698fa6cc76dba2ad86f6bd8f10b8b7bacea92c511f92c9c342e46aaaa",
+        "size_in_bytes": 12547
+      },
+      {
+        "_path": "site-packages/snakemake/gui.py",
+        "path_type": "hardlink",
+        "sha256": "423a046e423b9eda9ed6dc09699e59095de2b6475edab13260317c5533de2335",
+        "sha256_in_prefix": "423a046e423b9eda9ed6dc09699e59095de2b6475edab13260317c5533de2335",
+        "size_in_bytes": 4990
+      },
+      {
+        "_path": "site-packages/snakemake/io.py",
+        "path_type": "hardlink",
+        "sha256": "2c8815cd1279d1686a263ce59b08615c91328fde0aa86b9e2b7ef9126d0bdc86",
+        "sha256_in_prefix": "2c8815cd1279d1686a263ce59b08615c91328fde0aa86b9e2b7ef9126d0bdc86",
+        "size_in_bytes": 40124
+      },
+      {
+        "_path": "site-packages/snakemake/jobs.py",
+        "path_type": "hardlink",
+        "sha256": "a964b49bb44996a9543fbcc88de624f676f4702d0f55135e3624fd9236324d7a",
+        "sha256_in_prefix": "a964b49bb44996a9543fbcc88de624f676f4702d0f55135e3624fd9236324d7a",
+        "size_in_bytes": 44485
+      },
+      {
+        "_path": "site-packages/snakemake/jobscript.sh",
+        "path_type": "hardlink",
+        "sha256": "ed79806bcddf7ad8d28613d390a0da25f9cdd4b9d694b32b98cd5b13a2ae4ef3",
+        "sha256_in_prefix": "ed79806bcddf7ad8d28613d390a0da25f9cdd4b9d694b32b98cd5b13a2ae4ef3",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/snakemake/logging.py",
+        "path_type": "hardlink",
+        "sha256": "f3e181c823a6734bc4f5fb5da2a170a6f857a3c0ea6632f3de486fb13bf7f68f",
+        "sha256_in_prefix": "f3e181c823a6734bc4f5fb5da2a170a6f857a3c0ea6632f3de486fb13bf7f68f",
+        "size_in_bytes": 13616
+      },
+      {
+        "_path": "site-packages/snakemake/output_index.py",
+        "path_type": "hardlink",
+        "sha256": "1d5dbf4fa88b8c79a10c8e3d4f830f3cdcb09f69d372af5922cdff8479aa7db0",
+        "sha256_in_prefix": "1d5dbf4fa88b8c79a10c8e3d4f830f3cdcb09f69d372af5922cdff8479aa7db0",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "site-packages/snakemake/parser.py",
+        "path_type": "hardlink",
+        "sha256": "4b7ebe7fbb1c45703ea56774dd6b54ec54f6a9e6231df3cbbc33b53420dfaacd",
+        "sha256_in_prefix": "4b7ebe7fbb1c45703ea56774dd6b54ec54f6a9e6231df3cbbc33b53420dfaacd",
+        "size_in_bytes": 22831
+      },
+      {
+        "_path": "site-packages/snakemake/persistence.py",
+        "path_type": "hardlink",
+        "sha256": "80a9c45421a7c75aada7ac119cc744a0e82645f1c02fe75a344eca221f58eb8a",
+        "sha256_in_prefix": "80a9c45421a7c75aada7ac119cc744a0e82645f1c02fe75a344eca221f58eb8a",
+        "size_in_bytes": 13041
+      },
+      {
+        "_path": "site-packages/snakemake/remote/EGA.py",
+        "path_type": "hardlink",
+        "sha256": "db6252eb01f2bdbe153406d12d9ccaec6affa182923fba9e930508e206766a3a",
+        "sha256_in_prefix": "db6252eb01f2bdbe153406d12d9ccaec6affa182923fba9e930508e206766a3a",
+        "size_in_bytes": 6985
+      },
+      {
+        "_path": "site-packages/snakemake/remote/FTP.py",
+        "path_type": "hardlink",
+        "sha256": "ecb4547113f8c5f641574ceb08b1c21d80428bc345539113d66eb8a160dd0a17",
+        "sha256_in_prefix": "ecb4547113f8c5f641574ceb08b1c21d80428bc345539113d66eb8a160dd0a17",
+        "size_in_bytes": 8191
+      },
+      {
+        "_path": "site-packages/snakemake/remote/GS.py",
+        "path_type": "hardlink",
+        "sha256": "f035ecae1b4e12c2f2dd100c84717eb5c6e6d696326c893738f27692d5659662",
+        "sha256_in_prefix": "f035ecae1b4e12c2f2dd100c84717eb5c6e6d696326c893738f27692d5659662",
+        "size_in_bytes": 4019
+      },
+      {
+        "_path": "site-packages/snakemake/remote/HTTP.py",
+        "path_type": "hardlink",
+        "sha256": "f71493310a9c177550628347663d1ffbafeecf0b53e251ce27d6bce80f6c0212",
+        "sha256_in_prefix": "f71493310a9c177550628347663d1ffbafeecf0b53e251ce27d6bce80f6c0212",
+        "size_in_bytes": 8765
+      },
+      {
+        "_path": "site-packages/snakemake/remote/NCBI.py",
+        "path_type": "hardlink",
+        "sha256": "d2a62cd1544c232ff3c9b433cb90ff1ff43d2e9e112538efe46683402cc09332",
+        "sha256_in_prefix": "d2a62cd1544c232ff3c9b433cb90ff1ff43d2e9e112538efe46683402cc09332",
+        "size_in_bytes": 26479
+      },
+      {
+        "_path": "site-packages/snakemake/remote/S3.py",
+        "path_type": "hardlink",
+        "sha256": "5635ec1ea3c3482e7795b6486db7fcee53e11cf3027c5e098a567b0306131960",
+        "sha256_in_prefix": "5635ec1ea3c3482e7795b6486db7fcee53e11cf3027c5e098a567b0306131960",
+        "size_in_bytes": 11980
+      },
+      {
+        "_path": "site-packages/snakemake/remote/S3Mocked.py",
+        "path_type": "hardlink",
+        "sha256": "af1cef0cbc44d33519479a847dd688b1a2c2b40e922e628bd57d52a0fbe6c888",
+        "sha256_in_prefix": "af1cef0cbc44d33519479a847dd688b1a2c2b40e922e628bd57d52a0fbe6c888",
+        "size_in_bytes": 4310
+      },
+      {
+        "_path": "site-packages/snakemake/remote/SFTP.py",
+        "path_type": "hardlink",
+        "sha256": "de83223d2c1ee61197e3500445ec1a50694b6db7f56163da4a592b9a753c0d18",
+        "sha256_in_prefix": "de83223d2c1ee61197e3500445ec1a50694b6db7f56163da4a592b9a753c0d18",
+        "size_in_bytes": 5097
+      },
+      {
+        "_path": "site-packages/snakemake/remote/XRootD.py",
+        "path_type": "hardlink",
+        "sha256": "a77abb6b43548bbbd334130d553ff84a363c1cd2469754e7c33a3ad1882b2f83",
+        "sha256_in_prefix": "a77abb6b43548bbbd334130d553ff84a363c1cd2469754e7c33a3ad1882b2f83",
+        "size_in_bytes": 7094
+      },
+      {
+        "_path": "site-packages/snakemake/remote/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3a686876aa04abbd5e54a08aa9b0ce05377d1cbe3372613034f0f988a07cecd",
+        "sha256_in_prefix": "c3a686876aa04abbd5e54a08aa9b0ce05377d1cbe3372613034f0f988a07cecd",
+        "size_in_bytes": 8064
+      },
+      {
+        "_path": "site-packages/snakemake/remote/dropbox.py",
+        "path_type": "hardlink",
+        "sha256": "be14c259dd89779a029821df6fa1c288d05af9809636fce998c9cfb6585b6ac3",
+        "sha256_in_prefix": "be14c259dd89779a029821df6fa1c288d05af9809636fce998c9cfb6585b6ac3",
+        "size_in_bytes": 5291
+      },
+      {
+        "_path": "site-packages/snakemake/remote/gfal.py",
+        "path_type": "hardlink",
+        "sha256": "fd02d812c442fe234398adda258acc8dad7210c3d2dcb77dfbddb45d8b139434",
+        "sha256_in_prefix": "fd02d812c442fe234398adda258acc8dad7210c3d2dcb77dfbddb45d8b139434",
+        "size_in_bytes": 4892
+      },
+      {
+        "_path": "site-packages/snakemake/remote/gridftp.py",
+        "path_type": "hardlink",
+        "sha256": "e164ff5b5a1049360323dd095a79dc56e40ae4b34f2a86dc8d78a16e773d1134",
+        "sha256_in_prefix": "e164ff5b5a1049360323dd095a79dc56e40ae4b34f2a86dc8d78a16e773d1134",
+        "size_in_bytes": 2553
+      },
+      {
+        "_path": "site-packages/snakemake/remote/iRODS.py",
+        "path_type": "hardlink",
+        "sha256": "0fe2f9f3b0f64108eb042e14e4d3cb6808be19170e470ba39dd13a3d688e0698",
+        "sha256_in_prefix": "0fe2f9f3b0f64108eb042e14e4d3cb6808be19170e470ba39dd13a3d688e0698",
+        "size_in_bytes": 8218
+      },
+      {
+        "_path": "site-packages/snakemake/remote/webdav.py",
+        "path_type": "hardlink",
+        "sha256": "6fb1352bed1fddc3ea801c50bc4c7e843cc23f95e85b3fee8a0885990daa3f39",
+        "sha256_in_prefix": "6fb1352bed1fddc3ea801c50bc4c7e843cc23f95e85b3fee8a0885990daa3f39",
+        "size_in_bytes": 6801
+      },
+      {
+        "_path": "site-packages/snakemake/report.css",
+        "path_type": "hardlink",
+        "sha256": "046ba4606c51847dc033c4ef0f0e954230fc3b568b376e702016aed865390fc3",
+        "sha256_in_prefix": "046ba4606c51847dc033c4ef0f0e954230fc3b568b376e702016aed865390fc3",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "site-packages/snakemake/report/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3893dd08ac54dfab401f7b7765f4d320b515bc6cbca43785b8fb6057a6ff925",
+        "sha256_in_prefix": "c3893dd08ac54dfab401f7b7765f4d320b515bc6cbca43785b8fb6057a6ff925",
+        "size_in_bytes": 15251
+      },
+      {
+        "_path": "site-packages/snakemake/report/report.html",
+        "path_type": "hardlink",
+        "sha256": "5e148b733e51e424ff8fee6803b587bc7ee4c2cdf919064bc775f738fb816307",
+        "sha256_in_prefix": "5e148b733e51e424ff8fee6803b587bc7ee4c2cdf919064bc775f738fb816307",
+        "size_in_bytes": 18594
+      },
+      {
+        "_path": "site-packages/snakemake/rules.py",
+        "path_type": "hardlink",
+        "sha256": "c03b90a63750d28e263d4b503abb75b6fdfa7e64ec26ef9ee247d3961d02ae3f",
+        "sha256_in_prefix": "c03b90a63750d28e263d4b503abb75b6fdfa7e64ec26ef9ee247d3961d02ae3f",
+        "size_in_bytes": 36799
+      },
+      {
+        "_path": "site-packages/snakemake/scheduler.py",
+        "path_type": "hardlink",
+        "sha256": "b3155d8f7c82f290def3555e16b107bff31b0f2a57e1e6e0e675e07d39b95a04",
+        "sha256_in_prefix": "b3155d8f7c82f290def3555e16b107bff31b0f2a57e1e6e0e675e07d39b95a04",
+        "size_in_bytes": 18910
+      },
+      {
+        "_path": "site-packages/snakemake/script.py",
+        "path_type": "hardlink",
+        "sha256": "135c0bdf616efc3cca818f5b3c9dccdc7c1b962948225ce627fc6abca2bd2ad7",
+        "sha256_in_prefix": "135c0bdf616efc3cca818f5b3c9dccdc7c1b962948225ce627fc6abca2bd2ad7",
+        "size_in_bytes": 15044
+      },
+      {
+        "_path": "site-packages/snakemake/shell.py",
+        "path_type": "hardlink",
+        "sha256": "9b12834b572720a3e6a6342b705503855f86cbacc4a263a8a9f5d125873a8861",
+        "sha256_in_prefix": "9b12834b572720a3e6a6342b705503855f86cbacc4a263a8a9f5d125873a8861",
+        "size_in_bytes": 5377
+      },
+      {
+        "_path": "site-packages/snakemake/singularity.py",
+        "path_type": "hardlink",
+        "sha256": "9aaa40a1f40b47a6d6180042a1c49941f3b18f1c1ee15a8fc47b40a2c5049db1",
+        "sha256_in_prefix": "9aaa40a1f40b47a6d6180042a1c49941f3b18f1c1ee15a8fc47b40a2c5049db1",
+        "size_in_bytes": 3982
+      },
+      {
+        "_path": "site-packages/snakemake/stats.py",
+        "path_type": "hardlink",
+        "sha256": "b68d8d6282ec0b815fada443c09af68957de57b553c70d2082f4c7369893c3ad",
+        "sha256_in_prefix": "b68d8d6282ec0b815fada443c09af68957de57b553c70d2082f4c7369893c3ad",
+        "size_in_bytes": 2551
+      },
+      {
+        "_path": "site-packages/snakemake/utils.py",
+        "path_type": "hardlink",
+        "sha256": "6ba97c28643551181545620a222c382a44a10a6c45bdba8f464f9856c637dbe8",
+        "sha256_in_prefix": "6ba97c28643551181545620a222c382a44a10a6c45bdba8f464f9856c637dbe8",
+        "size_in_bytes": 18652
+      },
+      {
+        "_path": "site-packages/snakemake/workflow.py",
+        "path_type": "hardlink",
+        "sha256": "2a71ae36487d3c8fb5cf7edb32b21e28bfb44e16e3db50aca68f0463001617ed",
+        "sha256_in_prefix": "2a71ae36487d3c8fb5cf7edb32b21e28bfb44e16e3db50aca68f0463001617ed",
+        "size_in_bytes": 42180
+      },
+      {
+        "_path": "site-packages/snakemake/wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "b2653772b8c6f43d34399ba0c42e5d4790ab0ddef3a2ca93049867b7ea65da3f",
+        "sha256_in_prefix": "b2653772b8c6f43d34399ba0c42e5d4790ab0ddef3a2ca93049867b7ea65da3f",
+        "size_in_bytes": 3127
+      },
+      {
+        "_path": "bin/snakemake",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "bin/snakemake-bash-completion",
+        "path_type": "unix_python_entry_point"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/_version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/benchmark.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/checkpoints.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/common.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/conda.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/cwl.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/dag.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/decorators.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/exceptions.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/executors.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/gui.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/io.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/jobs.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/logging.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/output_index.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/parser.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/persistence.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/EGA.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/FTP.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/GS.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/HTTP.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/NCBI.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/S3.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/S3Mocked.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/SFTP.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/XRootD.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/dropbox.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/gfal.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/gridftp.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/iRODS.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/remote/__pycache__/webdav.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/report/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/rules.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/scheduler.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/script.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/shell.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/singularity.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/stats.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/utils.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/workflow.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/snakemake/__pycache__/wrapper.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "snakemake-minimal=5.4.5",
+  "size": 134471,
+  "subdir": "noarch",
+  "timestamp": 1555102139504,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/snakemake-minimal-5.4.5-py_0.tar.bz2",
+  "version": "5.4.5"
+}

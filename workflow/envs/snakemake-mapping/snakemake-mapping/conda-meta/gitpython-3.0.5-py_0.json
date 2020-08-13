@@ -1,0 +1,1495 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "gitdb2",
+    "python >=3"
+  ],
+  "extracted_package_dir": "/home/ndh0004/anaconda3/pkgs/gitpython-3.0.5-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/AUTHORS",
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/LICENSE",
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/METADATA",
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/RECORD",
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/WHEEL",
+    "lib/python3.6/site-packages/GitPython-3.0.5.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/git/__init__.py",
+    "lib/python3.6/site-packages/git/cmd.py",
+    "lib/python3.6/site-packages/git/compat.py",
+    "lib/python3.6/site-packages/git/config.py",
+    "lib/python3.6/site-packages/git/db.py",
+    "lib/python3.6/site-packages/git/diff.py",
+    "lib/python3.6/site-packages/git/exc.py",
+    "lib/python3.6/site-packages/git/index/__init__.py",
+    "lib/python3.6/site-packages/git/index/base.py",
+    "lib/python3.6/site-packages/git/index/fun.py",
+    "lib/python3.6/site-packages/git/index/typ.py",
+    "lib/python3.6/site-packages/git/index/util.py",
+    "lib/python3.6/site-packages/git/objects/__init__.py",
+    "lib/python3.6/site-packages/git/objects/base.py",
+    "lib/python3.6/site-packages/git/objects/blob.py",
+    "lib/python3.6/site-packages/git/objects/commit.py",
+    "lib/python3.6/site-packages/git/objects/fun.py",
+    "lib/python3.6/site-packages/git/objects/submodule/__init__.py",
+    "lib/python3.6/site-packages/git/objects/submodule/base.py",
+    "lib/python3.6/site-packages/git/objects/submodule/root.py",
+    "lib/python3.6/site-packages/git/objects/submodule/util.py",
+    "lib/python3.6/site-packages/git/objects/tag.py",
+    "lib/python3.6/site-packages/git/objects/tree.py",
+    "lib/python3.6/site-packages/git/objects/util.py",
+    "lib/python3.6/site-packages/git/refs/__init__.py",
+    "lib/python3.6/site-packages/git/refs/head.py",
+    "lib/python3.6/site-packages/git/refs/log.py",
+    "lib/python3.6/site-packages/git/refs/reference.py",
+    "lib/python3.6/site-packages/git/refs/remote.py",
+    "lib/python3.6/site-packages/git/refs/symbolic.py",
+    "lib/python3.6/site-packages/git/refs/tag.py",
+    "lib/python3.6/site-packages/git/remote.py",
+    "lib/python3.6/site-packages/git/repo/__init__.py",
+    "lib/python3.6/site-packages/git/repo/base.py",
+    "lib/python3.6/site-packages/git/repo/fun.py",
+    "lib/python3.6/site-packages/git/test/__init__.py",
+    "lib/python3.6/site-packages/git/test/fixtures/blame",
+    "lib/python3.6/site-packages/git/test/fixtures/blame_binary",
+    "lib/python3.6/site-packages/git/test/fixtures/blame_complex_revision",
+    "lib/python3.6/site-packages/git/test/fixtures/blame_incremental",
+    "lib/python3.6/site-packages/git/test/fixtures/blame_incremental_2.11.1_plus",
+    "lib/python3.6/site-packages/git/test/fixtures/cat_file.py",
+    "lib/python3.6/site-packages/git/test/fixtures/cat_file_blob",
+    "lib/python3.6/site-packages/git/test/fixtures/cat_file_blob_nl",
+    "lib/python3.6/site-packages/git/test/fixtures/cat_file_blob_size",
+    "lib/python3.6/site-packages/git/test/fixtures/commit_invalid_data",
+    "lib/python3.6/site-packages/git/test/fixtures/commit_with_gpgsig",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_2",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_2f",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_abbrev-40_full-index_M_raw_no-color",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_change_in_type",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_change_in_type_raw",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_copied_mode",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_copied_mode_raw",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_f",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_file_with_spaces",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_i",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_index_patch",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_index_raw",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_initial",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_mode_only",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_new_mode",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_numstat",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_p",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_patch_binary",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_patch_unsafe_paths",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_raw_binary",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_rename",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_rename_raw",
+    "lib/python3.6/site-packages/git/test/fixtures/diff_tree_numstat_root",
+    "lib/python3.6/site-packages/git/test/fixtures/for_each_ref_with_path_component",
+    "lib/python3.6/site-packages/git/test/fixtures/git_config",
+    "lib/python3.6/site-packages/git/test/fixtures/git_config-inc.cfg",
+    "lib/python3.6/site-packages/git/test/fixtures/git_config_global",
+    "lib/python3.6/site-packages/git/test/fixtures/git_config_multiple",
+    "lib/python3.6/site-packages/git/test/fixtures/git_config_with_comments",
+    "lib/python3.6/site-packages/git/test/fixtures/git_config_with_empty_value",
+    "lib/python3.6/site-packages/git/test/fixtures/git_file",
+    "lib/python3.6/site-packages/git/test/fixtures/index",
+    "lib/python3.6/site-packages/git/test/fixtures/index_merge",
+    "lib/python3.6/site-packages/git/test/fixtures/issue-301_stderr",
+    "lib/python3.6/site-packages/git/test/fixtures/ls_tree_a",
+    "lib/python3.6/site-packages/git/test/fixtures/ls_tree_b",
+    "lib/python3.6/site-packages/git/test/fixtures/ls_tree_commit",
+    "lib/python3.6/site-packages/git/test/fixtures/ls_tree_empty",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_HEAD",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_invalid_date",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_invalid_email",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_invalid_newsha",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_invalid_oldsha",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_invalid_sep",
+    "lib/python3.6/site-packages/git/test/fixtures/reflog_master",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_bisect_all",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_commit_diffs",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_commit_idabbrev",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_commit_stats",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_count",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_delta_a",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_delta_b",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_list_single",
+    "lib/python3.6/site-packages/git/test/fixtures/rev_parse",
+    "lib/python3.6/site-packages/git/test/fixtures/show_empty_commit",
+    "lib/python3.6/site-packages/git/test/fixtures/uncommon_branch_prefix_FETCH_HEAD",
+    "lib/python3.6/site-packages/git/test/fixtures/uncommon_branch_prefix_stderr",
+    "lib/python3.6/site-packages/git/test/lib/__init__.py",
+    "lib/python3.6/site-packages/git/test/lib/asserts.py",
+    "lib/python3.6/site-packages/git/test/lib/helper.py",
+    "lib/python3.6/site-packages/git/test/performance/__init__.py",
+    "lib/python3.6/site-packages/git/test/performance/lib.py",
+    "lib/python3.6/site-packages/git/test/performance/test_commit.py",
+    "lib/python3.6/site-packages/git/test/performance/test_odb.py",
+    "lib/python3.6/site-packages/git/test/performance/test_streams.py",
+    "lib/python3.6/site-packages/git/test/test_actor.py",
+    "lib/python3.6/site-packages/git/test/test_base.py",
+    "lib/python3.6/site-packages/git/test/test_blob.py",
+    "lib/python3.6/site-packages/git/test/test_commit.py",
+    "lib/python3.6/site-packages/git/test/test_config.py",
+    "lib/python3.6/site-packages/git/test/test_db.py",
+    "lib/python3.6/site-packages/git/test/test_diff.py",
+    "lib/python3.6/site-packages/git/test/test_docs.py",
+    "lib/python3.6/site-packages/git/test/test_exc.py",
+    "lib/python3.6/site-packages/git/test/test_fun.py",
+    "lib/python3.6/site-packages/git/test/test_git.py",
+    "lib/python3.6/site-packages/git/test/test_index.py",
+    "lib/python3.6/site-packages/git/test/test_reflog.py",
+    "lib/python3.6/site-packages/git/test/test_refs.py",
+    "lib/python3.6/site-packages/git/test/test_remote.py",
+    "lib/python3.6/site-packages/git/test/test_repo.py",
+    "lib/python3.6/site-packages/git/test/test_stats.py",
+    "lib/python3.6/site-packages/git/test/test_submodule.py",
+    "lib/python3.6/site-packages/git/test/test_tree.py",
+    "lib/python3.6/site-packages/git/test/test_util.py",
+    "lib/python3.6/site-packages/git/util.py",
+    "lib/python3.6/site-packages/git/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/compat.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/config.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/db.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/diff.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/exc.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/index/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/index/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/index/__pycache__/fun.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/index/__pycache__/typ.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/index/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/blob.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/commit.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/fun.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/submodule/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/submodule/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/submodule/__pycache__/root.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/submodule/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/tag.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/tree.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/objects/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/head.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/log.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/reference.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/remote.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/symbolic.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/refs/__pycache__/tag.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/remote.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/repo/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/repo/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/repo/__pycache__/fun.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/fixtures/__pycache__/cat_file.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/lib/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/lib/__pycache__/asserts.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/lib/__pycache__/helper.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/performance/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/performance/__pycache__/lib.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/performance/__pycache__/test_commit.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/performance/__pycache__/test_odb.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/performance/__pycache__/test_streams.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_actor.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_base.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_blob.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_commit.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_config.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_db.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_diff.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_docs.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_exc.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_fun.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_git.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_index.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_reflog.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_refs.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_remote.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_repo.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_stats.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_submodule.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_tree.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/test/__pycache__/test_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/git/__pycache__/util.cpython-36.pyc"
+  ],
+  "fn": "gitpython-3.0.5-py_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ndh0004/anaconda3/pkgs/gitpython-3.0.5-py_0",
+    "type": 1
+  },
+  "md5": "67f3179ca0c2f6208acdc4a37d6776e9",
+  "name": "gitpython",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ndh0004/anaconda3/pkgs/gitpython-3.0.5-py_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "425783469666ae78195eb6716553c89f1d42182e9606cdb082ab96038bb5478f",
+        "sha256_in_prefix": "425783469666ae78195eb6716553c89f1d42182e9606cdb082ab96038bb5478f",
+        "size_in_bytes": 1645
+      },
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fd657ffc2cef63d25c78cab7808d414dd03a282e63893491fd11c32f98be67fb",
+        "sha256_in_prefix": "fd657ffc2cef63d25c78cab7808d414dd03a282e63893491fd11c32f98be67fb",
+        "size_in_bytes": 1521
+      },
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0e1e089493ebfab10687753e68b09d3bca7e9b26e825791c53a317d1225602c2",
+        "sha256_in_prefix": "0e1e089493ebfab10687753e68b09d3bca7e9b26e825791c53a317d1225602c2",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "58d3a0f0500fa57c77fcc3ae5189253cf724ae945c4d854c4edc0a8107ee4e60",
+        "sha256_in_prefix": "58d3a0f0500fa57c77fcc3ae5189253cf724ae945c4d854c4edc0a8107ee4e60",
+        "size_in_bytes": 15214
+      },
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2bc06e9099e5d958bf637187be3db35aa2c98de3db26542dba92b6373cbf520c",
+        "sha256_in_prefix": "2bc06e9099e5d958bf637187be3db35aa2c98de3db26542dba92b6373cbf520c",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/GitPython-3.0.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d21cc3b88a7ca1bbfadb85771a66eab1a8015a493ca21b4653e05cd4f9934f4a",
+        "sha256_in_prefix": "d21cc3b88a7ca1bbfadb85771a66eab1a8015a493ca21b4653e05cd4f9934f4a",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/git/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f1b182cef6e7730a3b42b64f12463c9a8ce6f894e4ac668d9523024bea455879",
+        "sha256_in_prefix": "f1b182cef6e7730a3b42b64f12463c9a8ce6f894e4ac668d9523024bea455879",
+        "size_in_bytes": 2334
+      },
+      {
+        "_path": "site-packages/git/cmd.py",
+        "path_type": "hardlink",
+        "sha256": "8199fdb4cf4ecba5daa3c3bf43aff13a5858621cd4e5d6a0c50e030390b0ca4d",
+        "sha256_in_prefix": "8199fdb4cf4ecba5daa3c3bf43aff13a5858621cd4e5d6a0c50e030390b0ca4d",
+        "size_in_bytes": 42869
+      },
+      {
+        "_path": "site-packages/git/compat.py",
+        "path_type": "hardlink",
+        "sha256": "834d323fc7aaf9aa7620e5d7a3a9a9a4777ee08c3cabe77ab43bd07a08f9518c",
+        "sha256_in_prefix": "834d323fc7aaf9aa7620e5d7a3a9a9a4777ee08c3cabe77ab43bd07a08f9518c",
+        "size_in_bytes": 9436
+      },
+      {
+        "_path": "site-packages/git/config.py",
+        "path_type": "hardlink",
+        "sha256": "1c99cbf7683c1a6a703601f62ce915dd9d5e44adca1a03a1fa06c69873f87e24",
+        "sha256_in_prefix": "1c99cbf7683c1a6a703601f62ce915dd9d5e44adca1a03a1fa06c69873f87e24",
+        "size_in_bytes": 28415
+      },
+      {
+        "_path": "site-packages/git/db.py",
+        "path_type": "hardlink",
+        "sha256": "6e1b0fe87ffba409e6e615012a877c660b98ae660c0762f846090db3088c804a",
+        "sha256_in_prefix": "6e1b0fe87ffba409e6e615012a877c660b98ae660c0762f846090db3088c804a",
+        "size_in_bytes": 1963
+      },
+      {
+        "_path": "site-packages/git/diff.py",
+        "path_type": "hardlink",
+        "sha256": "41a236477bb207493d60eb814ce9b374817b3a6f625a01331ed989551409ed77",
+        "sha256_in_prefix": "41a236477bb207493d60eb814ce9b374817b3a6f625a01331ed989551409ed77",
+        "size_in_bytes": 19965
+      },
+      {
+        "_path": "site-packages/git/exc.py",
+        "path_type": "hardlink",
+        "sha256": "8f4f576306c48ada2b36064d78dbec0a7ae843e21450cd9fdf9aced87cbc332c",
+        "sha256_in_prefix": "8f4f576306c48ada2b36064d78dbec0a7ae843e21450cd9fdf9aced87cbc332c",
+        "size_in_bytes": 4907
+      },
+      {
+        "_path": "site-packages/git/index/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a3e73809820664117b9e1035dd8a3c576a1cf185ec6d0b4f24ef49f494744dd",
+        "sha256_in_prefix": "5a3e73809820664117b9e1035dd8a3c576a1cf185ec6d0b4f24ef49f494744dd",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/git/index/base.py",
+        "path_type": "hardlink",
+        "sha256": "8e46fdeb9bbb5eb678ac917052a6e97d7dafc7901445c76de3c28b6a0d4dcca5",
+        "sha256_in_prefix": "8e46fdeb9bbb5eb678ac917052a6e97d7dafc7901445c76de3c28b6a0d4dcca5",
+        "size_in_bytes": 52209
+      },
+      {
+        "_path": "site-packages/git/index/fun.py",
+        "path_type": "hardlink",
+        "sha256": "1264b5b33ba12ed86da15c3d7c965fd902b289701b72066333d8217f17d48282",
+        "sha256_in_prefix": "1264b5b33ba12ed86da15c3d7c965fd902b289701b72066333d8217f17d48282",
+        "size_in_bytes": 14280
+      },
+      {
+        "_path": "site-packages/git/index/typ.py",
+        "path_type": "hardlink",
+        "sha256": "18b0596c34b7c9270726cd14d7c097fa178b4c38e31aee9f37b4f62ff350af80",
+        "sha256_in_prefix": "18b0596c34b7c9270726cd14d7c097fa178b4c38e31aee9f37b4f62ff350af80",
+        "size_in_bytes": 4976
+      },
+      {
+        "_path": "site-packages/git/index/util.py",
+        "path_type": "hardlink",
+        "sha256": "97aa21f7fd4a535bf9190769c6a08eaace962ede71375b96be454742a7024e80",
+        "sha256_in_prefix": "97aa21f7fd4a535bf9190769c6a08eaace962ede71375b96be454742a7024e80",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "site-packages/git/objects/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e82d362e53328221704d8b67733dc6c4441fcc766bd96bd421dd1f9c9f077cba",
+        "sha256_in_prefix": "e82d362e53328221704d8b67733dc6c4441fcc766bd96bd421dd1f9c9f077cba",
+        "size_in_bytes": 683
+      },
+      {
+        "_path": "site-packages/git/objects/base.py",
+        "path_type": "hardlink",
+        "sha256": "5198b2cf2cf1e3f389ddb5a7c2a6f79aa8742d74fba28d1b8986939beb0bb80c",
+        "sha256_in_prefix": "5198b2cf2cf1e3f389ddb5a7c2a6f79aa8742d74fba28d1b8986939beb0bb80c",
+        "size_in_bytes": 6689
+      },
+      {
+        "_path": "site-packages/git/objects/blob.py",
+        "path_type": "hardlink",
+        "sha256": "7af237a6d3e69659fa80ba68411bdb20a8cae2fe7d9d3f22a5dd6f93574662d7",
+        "sha256_in_prefix": "7af237a6d3e69659fa80ba68411bdb20a8cae2fe7d9d3f22a5dd6f93574662d7",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "site-packages/git/objects/commit.py",
+        "path_type": "hardlink",
+        "sha256": "fb85a7d5dbccd4433a4aefcd3591fe14a77206d5ccd7c8cae1350e440a679e8b",
+        "sha256_in_prefix": "fb85a7d5dbccd4433a4aefcd3591fe14a77206d5ccd7c8cae1350e440a679e8b",
+        "size_in_bytes": 20761
+      },
+      {
+        "_path": "site-packages/git/objects/fun.py",
+        "path_type": "hardlink",
+        "sha256": "50a16108834b0385fb6239c61f5871174523dac1ec29bc450dddebad0991aba5",
+        "sha256_in_prefix": "50a16108834b0385fb6239c61f5871174523dac1ec29bc450dddebad0991aba5",
+        "size_in_bytes": 7352
+      },
+      {
+        "_path": "site-packages/git/objects/submodule/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3ac31e89ec7b706e9ebf67f7e48689e5cb07f9e5dc852a0d282b781d7506e56b",
+        "sha256_in_prefix": "3ac31e89ec7b706e9ebf67f7e48689e5cb07f9e5dc852a0d282b781d7506e56b",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/git/objects/submodule/base.py",
+        "path_type": "hardlink",
+        "sha256": "b3c1f9e3ce38b5cd3d53be86dfeda53365f7039d7c006c954c3d6bbc487cd6d3",
+        "sha256_in_prefix": "b3c1f9e3ce38b5cd3d53be86dfeda53365f7039d7c006c954c3d6bbc487cd6d3",
+        "size_in_bytes": 53875
+      },
+      {
+        "_path": "site-packages/git/objects/submodule/root.py",
+        "path_type": "hardlink",
+        "sha256": "3768b43e345cc396cd2cb203024be24235e17fd46f1927d59db6afe05373917a",
+        "sha256_in_prefix": "3768b43e345cc396cd2cb203024be24235e17fd46f1927d59db6afe05373917a",
+        "size_in_bytes": 17656
+      },
+      {
+        "_path": "site-packages/git/objects/submodule/util.py",
+        "path_type": "hardlink",
+        "sha256": "55d8081be701a38edbffb25ca2502f8d6688314d17e682262e3278c25b9cfe2c",
+        "sha256_in_prefix": "55d8081be701a38edbffb25ca2502f8d6688314d17e682262e3278c25b9cfe2c",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "site-packages/git/objects/tag.py",
+        "path_type": "hardlink",
+        "sha256": "38578de9990b539cd54f3ff5c6e3cda73e18a048294a9559d4c3099e75321aa1",
+        "sha256_in_prefix": "38578de9990b539cd54f3ff5c6e3cda73e18a048294a9559d4c3099e75321aa1",
+        "size_in_bytes": 3127
+      },
+      {
+        "_path": "site-packages/git/objects/tree.py",
+        "path_type": "hardlink",
+        "sha256": "4dad6a024bb0ce7ee5939e3f77b927a85d962fa0ce7363101b593c98a2de975b",
+        "sha256_in_prefix": "4dad6a024bb0ce7ee5939e3f77b927a85d962fa0ce7363101b593c98a2de975b",
+        "size_in_bytes": 11069
+      },
+      {
+        "_path": "site-packages/git/objects/util.py",
+        "path_type": "hardlink",
+        "sha256": "7e6ba4bc28b71d48c3f5f13c02d3609f4aa1b0898a089199e6c744c0688cdf9f",
+        "sha256_in_prefix": "7e6ba4bc28b71d48c3f5f13c02d3609f4aa1b0898a089199e6c744c0688cdf9f",
+        "size_in_bytes": 12451
+      },
+      {
+        "_path": "site-packages/git/refs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dc245f03213e67bf2b27791274a4753cd8971c48c72f0d95914d89c83be23435",
+        "sha256_in_prefix": "dc245f03213e67bf2b27791274a4753cd8971c48c72f0d95914d89c83be23435",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "site-packages/git/refs/head.py",
+        "path_type": "hardlink",
+        "sha256": "298ffe1e09b724324f6ab5f7f34cf142fe7eb25c6d4cd9d413cc6cfbef27b7d5",
+        "sha256_in_prefix": "298ffe1e09b724324f6ab5f7f34cf142fe7eb25c6d4cd9d413cc6cfbef27b7d5",
+        "size_in_bytes": 8706
+      },
+      {
+        "_path": "site-packages/git/refs/log.py",
+        "path_type": "hardlink",
+        "sha256": "348f119dd8ed8caccea2aa36871fd385243596dd2dac73202585bfd4c2fadbf1",
+        "sha256_in_prefix": "348f119dd8ed8caccea2aa36871fd385243596dd2dac73202585bfd4c2fadbf1",
+        "size_in_bytes": 10918
+      },
+      {
+        "_path": "site-packages/git/refs/reference.py",
+        "path_type": "hardlink",
+        "sha256": "39c40cc0726e7a5475c8a7b5105d0805fc5e41962fda47f4c6e9cd495c1957e3",
+        "sha256_in_prefix": "39c40cc0726e7a5475c8a7b5105d0805fc5e41962fda47f4c6e9cd495c1957e3",
+        "size_in_bytes": 4408
+      },
+      {
+        "_path": "site-packages/git/refs/remote.py",
+        "path_type": "hardlink",
+        "sha256": "e893b222eae7a26337b4d5dd2915df30afd5ef9809360afdff6b1d7af294fed2",
+        "sha256_in_prefix": "e893b222eae7a26337b4d5dd2915df30afd5ef9809360afdff6b1d7af294fed2",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "site-packages/git/refs/symbolic.py",
+        "path_type": "hardlink",
+        "sha256": "4ed3d135bb75767922fbf4c08c09f780ffe1f48c606daef3d2b59ccbbfd66d0f",
+        "sha256_in_prefix": "4ed3d135bb75767922fbf4c08c09f780ffe1f48c606daef3d2b59ccbbfd66d0f",
+        "size_in_bytes": 26840
+      },
+      {
+        "_path": "site-packages/git/refs/tag.py",
+        "path_type": "hardlink",
+        "sha256": "aa81f027db2e1f1f2ef0d360fba1af35fb4adfa46708d929125463876afdc1c2",
+        "sha256_in_prefix": "aa81f027db2e1f1f2ef0d360fba1af35fb4adfa46708d929125463876afdc1c2",
+        "size_in_bytes": 2964
+      },
+      {
+        "_path": "site-packages/git/remote.py",
+        "path_type": "hardlink",
+        "sha256": "689b03709c2a19dde2a860660cfad6cc0947311606d6f5009e18d84b727e93c9",
+        "sha256_in_prefix": "689b03709c2a19dde2a860660cfad6cc0947311606d6f5009e18d84b727e93c9",
+        "size_in_bytes": 35739
+      },
+      {
+        "_path": "site-packages/git/repo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b2c507e08542a2e6b9b21239875978e8fd17d64a7cdb277155c1f73c85429f38",
+        "sha256_in_prefix": "b2c507e08542a2e6b9b21239875978e8fd17d64a7cdb277155c1f73c85429f38",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/git/repo/base.py",
+        "path_type": "hardlink",
+        "sha256": "f61eb534c37820ae3e91404499abd91e5ccee5f909aeec75f583917f2780f31b",
+        "sha256_in_prefix": "f61eb534c37820ae3e91404499abd91e5ccee5f909aeec75f583917f2780f31b",
+        "size_in_bytes": 44515
+      },
+      {
+        "_path": "site-packages/git/repo/fun.py",
+        "path_type": "hardlink",
+        "sha256": "4ae82e059b38b1913f4af01c7ef9fbcb15dda312a681077052180a0247b22124",
+        "sha256_in_prefix": "4ae82e059b38b1913f4af01c7ef9fbcb15dda312a681077052180a0247b22124",
+        "size_in_bytes": 11396
+      },
+      {
+        "_path": "site-packages/git/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "abe5822131aa14a4c79d116352f273e61509062f123f82276806515d9f2a8fc9",
+        "sha256_in_prefix": "abe5822131aa14a4c79d116352f273e61509062f123f82276806515d9f2a8fc9",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/blame",
+        "path_type": "hardlink",
+        "sha256": "e040d14977606d1b711d4ff69404855c2ede35284bd9c56adc8538ded2d6943e",
+        "sha256_in_prefix": "e040d14977606d1b711d4ff69404855c2ede35284bd9c56adc8538ded2d6943e",
+        "size_in_bytes": 3663
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/blame_binary",
+        "path_type": "hardlink",
+        "sha256": "60bce81ea4c0bafd94bfc2082e1e27750c49fc0d5cd3dd7be84fb777914c42c3",
+        "sha256_in_prefix": "60bce81ea4c0bafd94bfc2082e1e27750c49fc0d5cd3dd7be84fb777914c42c3",
+        "size_in_bytes": 14807
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/blame_complex_revision",
+        "path_type": "hardlink",
+        "sha256": "b4f82e2ecaa62f18ee6568399d171d64265e6818be2ce7954041df4d7e97fc1d",
+        "sha256_in_prefix": "b4f82e2ecaa62f18ee6568399d171d64265e6818be2ce7954041df4d7e97fc1d",
+        "size_in_bytes": 7645
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/blame_incremental",
+        "path_type": "hardlink",
+        "sha256": "dd55edae4f0b56a7d2e5fdafb0fe434f3154de8a5e7af51b10d414ab6daf4ddc",
+        "sha256_in_prefix": "dd55edae4f0b56a7d2e5fdafb0fe434f3154de8a5e7af51b10d414ab6daf4ddc",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/blame_incremental_2.11.1_plus",
+        "path_type": "hardlink",
+        "sha256": "24303fc427af3ab38c0de296f94f2cbd8780d04f0f6b7b08ec6f0600ba71387c",
+        "sha256_in_prefix": "24303fc427af3ab38c0de296f94f2cbd8780d04f0f6b7b08ec6f0600ba71387c",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/cat_file.py",
+        "path_type": "hardlink",
+        "sha256": "ed10c8ca61b2072c3c2353a26de9d733e0d5b19d3fee0a5acde6181b80b91833",
+        "sha256_in_prefix": "ed10c8ca61b2072c3c2353a26de9d733e0d5b19d3fee0a5acde6181b80b91833",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/cat_file_blob",
+        "path_type": "hardlink",
+        "sha256": "64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c",
+        "sha256_in_prefix": "64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/cat_file_blob_nl",
+        "path_type": "hardlink",
+        "sha256": "1894a19c85ba153acbf743ac4e43fc004c891604b26f8c69e1e83ea2afc7c48f",
+        "sha256_in_prefix": "1894a19c85ba153acbf743ac4e43fc004c891604b26f8c69e1e83ea2afc7c48f",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/cat_file_blob_size",
+        "path_type": "hardlink",
+        "sha256": "25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e",
+        "sha256_in_prefix": "25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e",
+        "size_in_bytes": 3
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/commit_invalid_data",
+        "path_type": "hardlink",
+        "sha256": "42557e3f0e66c35561a7aaa2bc0418e647013ff04c27f38874b0a29e67ace52c",
+        "sha256_in_prefix": "42557e3f0e66c35561a7aaa2bc0418e647013ff04c27f38874b0a29e67ace52c",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/commit_with_gpgsig",
+        "path_type": "hardlink",
+        "sha256": "de29ffb493e442fd8ad70171f8f1aa6826507b8d2588c9e5f5c318389f24ad30",
+        "sha256_in_prefix": "de29ffb493e442fd8ad70171f8f1aa6826507b8d2588c9e5f5c318389f24ad30",
+        "size_in_bytes": 1387
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_2",
+        "path_type": "hardlink",
+        "sha256": "b3113ec64579950ad411ba65969d97fc07057cf52652bdb0bd2b1cf6a91940b7",
+        "sha256_in_prefix": "b3113ec64579950ad411ba65969d97fc07057cf52652bdb0bd2b1cf6a91940b7",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_2f",
+        "path_type": "hardlink",
+        "sha256": "9dad754fc47576125438a78ef9f11e1f298ec615cdae3bf3ce603fafbc7aa093",
+        "sha256_in_prefix": "9dad754fc47576125438a78ef9f11e1f298ec615cdae3bf3ce603fafbc7aa093",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_abbrev-40_full-index_M_raw_no-color",
+        "path_type": "hardlink",
+        "sha256": "016f9811fbadc87fd157268fda70933e1b63be47ea5a2ecd54be2cf406f7430c",
+        "sha256_in_prefix": "016f9811fbadc87fd157268fda70933e1b63be47ea5a2ecd54be2cf406f7430c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_change_in_type",
+        "path_type": "hardlink",
+        "sha256": "5a8d6209a4f56017c69f9652278d07ee255ea972a6faffaa267b015012aba6c2",
+        "sha256_in_prefix": "5a8d6209a4f56017c69f9652278d07ee255ea972a6faffaa267b015012aba6c2",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_change_in_type_raw",
+        "path_type": "hardlink",
+        "sha256": "ebb298b7022541d4d2c1eb000672184d9c45822c0f855c815da0c5a0f5d116de",
+        "sha256_in_prefix": "ebb298b7022541d4d2c1eb000672184d9c45822c0f855c815da0c5a0f5d116de",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_copied_mode",
+        "path_type": "hardlink",
+        "sha256": "af32a38711bf1d6bb330902e1a5552e9129857a83b2a8f2585cd42770c468fe8",
+        "sha256_in_prefix": "af32a38711bf1d6bb330902e1a5552e9129857a83b2a8f2585cd42770c468fe8",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_copied_mode_raw",
+        "path_type": "hardlink",
+        "sha256": "76cb2ff45b97cd1ffebab26b91a6640724b11e8b2b18cca76b84f18d5b0e97e9",
+        "sha256_in_prefix": "76cb2ff45b97cd1ffebab26b91a6640724b11e8b2b18cca76b84f18d5b0e97e9",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_f",
+        "path_type": "hardlink",
+        "sha256": "b0db06dba6d8bea538a4afd1c1a85a3be2f26bc3bd5e89f0972b61f1da3fa6d6",
+        "sha256_in_prefix": "b0db06dba6d8bea538a4afd1c1a85a3be2f26bc3bd5e89f0972b61f1da3fa6d6",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_file_with_spaces",
+        "path_type": "hardlink",
+        "sha256": "04ebd092ae008d0fdc4757b488b60341d36ad812daf8fe71848e176a5ee161c1",
+        "sha256_in_prefix": "04ebd092ae008d0fdc4757b488b60341d36ad812daf8fe71848e176a5ee161c1",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_i",
+        "path_type": "hardlink",
+        "sha256": "efddab110bcff50f8c371677fc5b2f846e5e984fead674fd8e9990fc0d611561",
+        "sha256_in_prefix": "efddab110bcff50f8c371677fc5b2f846e5e984fead674fd8e9990fc0d611561",
+        "size_in_bytes": 5705
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_index_patch",
+        "path_type": "hardlink",
+        "sha256": "a9df630ff780418e48f4e2ec6ea773dfe966fe770bd802c98552f28f77a701f9",
+        "sha256_in_prefix": "a9df630ff780418e48f4e2ec6ea773dfe966fe770bd802c98552f28f77a701f9",
+        "size_in_bytes": 4598
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_index_raw",
+        "path_type": "hardlink",
+        "sha256": "a1d3573d9438ae5067a987c9bef4ca192f10bdf244df758dfd7fa5211313f0d2",
+        "sha256_in_prefix": "a1d3573d9438ae5067a987c9bef4ca192f10bdf244df758dfd7fa5211313f0d2",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_initial",
+        "path_type": "hardlink",
+        "sha256": "d5125383b4124dd30696a2c3be315484ab55d1b015d8d156f2b1c18339557f28",
+        "sha256_in_prefix": "d5125383b4124dd30696a2c3be315484ab55d1b015d8d156f2b1c18339557f28",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_mode_only",
+        "path_type": "hardlink",
+        "sha256": "a6a0ce1c12e6d3d4d6674a2b7dff92ee90a4424b43daca285b9994446d2fa8b4",
+        "sha256_in_prefix": "a6a0ce1c12e6d3d4d6674a2b7dff92ee90a4424b43daca285b9994446d2fa8b4",
+        "size_in_bytes": 46005
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_new_mode",
+        "path_type": "hardlink",
+        "sha256": "6fbd040cda02fe07eafcffdf545088a93dd61d4fcfd25fb58e1b91d9c4842458",
+        "sha256_in_prefix": "6fbd040cda02fe07eafcffdf545088a93dd61d4fcfd25fb58e1b91d9c4842458",
+        "size_in_bytes": 546
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_numstat",
+        "path_type": "hardlink",
+        "sha256": "fcbb35ef5befb04457951889d62d6d039bc7ca8602cedde12a8ac59a273b5321",
+        "sha256_in_prefix": "fcbb35ef5befb04457951889d62d6d039bc7ca8602cedde12a8ac59a273b5321",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_p",
+        "path_type": "hardlink",
+        "sha256": "dd896147750d1483c3bfdd199f5bc25c2e3a9100950ee7a9519233c330fcc669",
+        "sha256_in_prefix": "dd896147750d1483c3bfdd199f5bc25c2e3a9100950ee7a9519233c330fcc669",
+        "size_in_bytes": 19273
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_patch_binary",
+        "path_type": "hardlink",
+        "sha256": "08b5a2803d31d33de7fdfa5d87c2e5904c91532ee80e258cf822691aba963e23",
+        "sha256_in_prefix": "08b5a2803d31d33de7fdfa5d87c2e5904c91532ee80e258cf822691aba963e23",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_patch_unsafe_paths",
+        "path_type": "hardlink",
+        "sha256": "8ec73618cf23e7aa6e1039cc1219411c6e23221ce2374b98f1cbb31934ed1e6c",
+        "sha256_in_prefix": "8ec73618cf23e7aa6e1039cc1219411c6e23221ce2374b98f1cbb31934ed1e6c",
+        "size_in_bytes": 3145
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_raw_binary",
+        "path_type": "hardlink",
+        "sha256": "f8f50fa9fe70a29f0a926b9b1e73cae910158a7949b907fd2eaa385417dfdb72",
+        "sha256_in_prefix": "f8f50fa9fe70a29f0a926b9b1e73cae910158a7949b907fd2eaa385417dfdb72",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_rename",
+        "path_type": "hardlink",
+        "sha256": "f9fe24ab0d19b759516593a6b79234c3d25e9dbaf73e78324c7d9079441fbfc8",
+        "sha256_in_prefix": "f9fe24ab0d19b759516593a6b79234c3d25e9dbaf73e78324c7d9079441fbfc8",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_rename_raw",
+        "path_type": "hardlink",
+        "sha256": "5550548c61285d658c61016af9dc84ef4f038a30a71bdef8427efda65553dfd4",
+        "sha256_in_prefix": "5550548c61285d658c61016af9dc84ef4f038a30a71bdef8427efda65553dfd4",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/diff_tree_numstat_root",
+        "path_type": "hardlink",
+        "sha256": "35b0687d09b7c069bed61cb3f17288a3132d0bf6f3cf8c7c4e5c71b85f0b2c35",
+        "sha256_in_prefix": "35b0687d09b7c069bed61cb3f17288a3132d0bf6f3cf8c7c4e5c71b85f0b2c35",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/for_each_ref_with_path_component",
+        "path_type": "hardlink",
+        "sha256": "8475528951cd116e4f2923cfe33171c6962ce046253d227dcbecb29339295a39",
+        "sha256_in_prefix": "8475528951cd116e4f2923cfe33171c6962ce046253d227dcbecb29339295a39",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_config",
+        "path_type": "hardlink",
+        "sha256": "fc8822dc89f64ec92cbf051d9fb61cbac32ffb4ebd7ed31d955d46ed90acf275",
+        "sha256_in_prefix": "fc8822dc89f64ec92cbf051d9fb61cbac32ffb4ebd7ed31d955d46ed90acf275",
+        "size_in_bytes": 1517
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_config-inc.cfg",
+        "path_type": "hardlink",
+        "sha256": "8d88e33607d8041904017623e702f2ede9fe2125dbbd5c8e39f3a62ac51161d7",
+        "sha256_in_prefix": "8d88e33607d8041904017623e702f2ede9fe2125dbbd5c8e39f3a62ac51161d7",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_config_global",
+        "path_type": "hardlink",
+        "sha256": "fed1431d84d6d47c6e7b6597aa369f566fdbf5e33e3a34d5e964c3db26776aa3",
+        "sha256_in_prefix": "fed1431d84d6d47c6e7b6597aa369f566fdbf5e33e3a34d5e964c3db26776aa3",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_config_multiple",
+        "path_type": "hardlink",
+        "sha256": "c61ca7fdd7fde42adb59f03f61657f635791f5ba5b73ec59c56027cc2253514e",
+        "sha256_in_prefix": "c61ca7fdd7fde42adb59f03f61657f635791f5ba5b73ec59c56027cc2253514e",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_config_with_comments",
+        "path_type": "hardlink",
+        "sha256": "43d207ac1e0a137975e625e8603f7ee1320cc9dfeb15ccd0d423c0bbe088f1b5",
+        "sha256_in_prefix": "43d207ac1e0a137975e625e8603f7ee1320cc9dfeb15ccd0d423c0bbe088f1b5",
+        "size_in_bytes": 3997
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_config_with_empty_value",
+        "path_type": "hardlink",
+        "sha256": "ebcea28ac8f19dec7861e4f8a96763b10876d97f140f0e72cca49eade7c54933",
+        "sha256_in_prefix": "ebcea28ac8f19dec7861e4f8a96763b10876d97f140f0e72cca49eade7c54933",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/git_file",
+        "path_type": "hardlink",
+        "sha256": "e3842bf7ff1396ec5618f88f8c34f8744c85f31ddfbe703d5bb9a80cd88500aa",
+        "sha256_in_prefix": "e3842bf7ff1396ec5618f88f8c34f8744c85f31ddfbe703d5bb9a80cd88500aa",
+        "size_in_bytes": 16
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/index",
+        "path_type": "hardlink",
+        "sha256": "38178ce17a1d8b37011602bfed2f767dd8cd4da8ad3711b348191c1d75d642fb",
+        "sha256_in_prefix": "38178ce17a1d8b37011602bfed2f767dd8cd4da8ad3711b348191c1d75d642fb",
+        "size_in_bytes": 163616
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/index_merge",
+        "path_type": "hardlink",
+        "sha256": "21db51455f39822f5d1850b82cdb86ad9536cadb4600000d792d3faaf34ef39c",
+        "sha256_in_prefix": "21db51455f39822f5d1850b82cdb86ad9536cadb4600000d792d3faaf34ef39c",
+        "size_in_bytes": 9192
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/issue-301_stderr",
+        "path_type": "hardlink",
+        "sha256": "cfa40bfd4802290d4c32f88d40d761336da13a0a74d337c9c9ce4b0a6ec997ae",
+        "sha256_in_prefix": "cfa40bfd4802290d4c32f88d40d761336da13a0a74d337c9c9ce4b0a6ec997ae",
+        "size_in_bytes": 302879
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/ls_tree_a",
+        "path_type": "hardlink",
+        "sha256": "b81bc863cfbb1e7681bd2b1562281825db1b7ac971aed7de5e1fad5972ad3a77",
+        "sha256_in_prefix": "b81bc863cfbb1e7681bd2b1562281825db1b7ac971aed7de5e1fad5972ad3a77",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/ls_tree_b",
+        "path_type": "hardlink",
+        "sha256": "a56dda211717300d59484dfad38f5f2567a255097de6a93fdf553c121dd37357",
+        "sha256_in_prefix": "a56dda211717300d59484dfad38f5f2567a255097de6a93fdf553c121dd37357",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/ls_tree_commit",
+        "path_type": "hardlink",
+        "sha256": "70e8335f941caafcb82d4e1d20191c73addc72b38f04b69be43b0240f569cff1",
+        "sha256_in_prefix": "70e8335f941caafcb82d4e1d20191c73addc72b38f04b69be43b0240f569cff1",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/ls_tree_empty",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_HEAD",
+        "path_type": "hardlink",
+        "sha256": "f09e73c2c25199d6fcc5d5b2428454cc96099c349a7a8d2b2dae6eb61068bf24",
+        "sha256_in_prefix": "f09e73c2c25199d6fcc5d5b2428454cc96099c349a7a8d2b2dae6eb61068bf24",
+        "size_in_bytes": 114210
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_invalid_date",
+        "path_type": "hardlink",
+        "sha256": "565018936906b370b24a98495743a65b0a5664afee07d1712024c8099b8ac123",
+        "sha256_in_prefix": "565018936906b370b24a98495743a65b0a5664afee07d1712024c8099b8ac123",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_invalid_email",
+        "path_type": "hardlink",
+        "sha256": "d4ea0d76818a35c34a595400bf964a4a0544b74cd292282f1ce4ecdcc321556d",
+        "sha256_in_prefix": "d4ea0d76818a35c34a595400bf964a4a0544b74cd292282f1ce4ecdcc321556d",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_invalid_newsha",
+        "path_type": "hardlink",
+        "sha256": "8bec6987e0b5d9d653f9d10a592e154c3b57e00cd05547021772977cca7d1aed",
+        "sha256_in_prefix": "8bec6987e0b5d9d653f9d10a592e154c3b57e00cd05547021772977cca7d1aed",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_invalid_oldsha",
+        "path_type": "hardlink",
+        "sha256": "82ecd71fec1039fcf7c9024530287386e5dc810e86eab1934b0948741557f168",
+        "sha256_in_prefix": "82ecd71fec1039fcf7c9024530287386e5dc810e86eab1934b0948741557f168",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_invalid_sep",
+        "path_type": "hardlink",
+        "sha256": "d03f561d6a48184dad4170fcbad0dcabe6dbc5d8159d658200c2bfbf0237fb30",
+        "sha256_in_prefix": "d03f561d6a48184dad4170fcbad0dcabe6dbc5d8159d658200c2bfbf0237fb30",
+        "size_in_bytes": 415
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/reflog_master",
+        "path_type": "hardlink",
+        "sha256": "2b5f955f5a10de033fdb7a938d557ef3240e5de5ee46d78f8145c013a0f54d5a",
+        "sha256_in_prefix": "2b5f955f5a10de033fdb7a938d557ef3240e5de5ee46d78f8145c013a0f54d5a",
+        "size_in_bytes": 31286
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list",
+        "path_type": "hardlink",
+        "sha256": "a493c566e246c0bcd0ea6e0fd9ded535a44b74c79f1b1c6dced814f5f41f0825",
+        "sha256_in_prefix": "a493c566e246c0bcd0ea6e0fd9ded535a44b74c79f1b1c6dced814f5f41f0825",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_bisect_all",
+        "path_type": "hardlink",
+        "sha256": "af4827c99c2af88547c4db2ce2a13acccbf6f4f11c2f2134b7f7d5e0c2884877",
+        "sha256_in_prefix": "af4827c99c2af88547c4db2ce2a13acccbf6f4f11c2f2134b7f7d5e0c2884877",
+        "size_in_bytes": 2172
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_commit_diffs",
+        "path_type": "hardlink",
+        "sha256": "9fcaa153c14712aafb67ccfc3ef44610e0ef7ae3db148b9a5c1f146064ea4cf7",
+        "sha256_in_prefix": "9fcaa153c14712aafb67ccfc3ef44610e0ef7ae3db148b9a5c1f146064ea4cf7",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_commit_idabbrev",
+        "path_type": "hardlink",
+        "sha256": "5bf707731a2be6c146792f3e9e622958d8a6fb0b4563beb7e87c21d3849fbdef",
+        "sha256_in_prefix": "5bf707731a2be6c146792f3e9e622958d8a6fb0b4563beb7e87c21d3849fbdef",
+        "size_in_bytes": 271
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_commit_stats",
+        "path_type": "hardlink",
+        "sha256": "d5b6606033778aa8dd22266d614b8f3595dcc896250e2baccb7770e6eb67af73",
+        "sha256_in_prefix": "d5b6606033778aa8dd22266d614b8f3595dcc896250e2baccb7770e6eb67af73",
+        "size_in_bytes": 244
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_count",
+        "path_type": "hardlink",
+        "sha256": "c3206695a038e9b167b57685ea7c76f2985d0cfc136555b9909afbd6946b99bd",
+        "sha256_in_prefix": "c3206695a038e9b167b57685ea7c76f2985d0cfc136555b9909afbd6946b99bd",
+        "size_in_bytes": 26855
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_delta_a",
+        "path_type": "hardlink",
+        "sha256": "8a4adca1890edf5d6f6c24bfc687b2284ea6c982a528fe5bcbcf0a538a06eaa2",
+        "sha256_in_prefix": "8a4adca1890edf5d6f6c24bfc687b2284ea6c982a528fe5bcbcf0a538a06eaa2",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_delta_b",
+        "path_type": "hardlink",
+        "sha256": "8a24c62511769f366bb072d7075a0e7196a82ef9d218007707d3cbb7969c9a7a",
+        "sha256_in_prefix": "8a24c62511769f366bb072d7075a0e7196a82ef9d218007707d3cbb7969c9a7a",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_list_single",
+        "path_type": "hardlink",
+        "sha256": "62a009a3043fba34bc9149cd7c1966f226ca63b922e6fbb69d773fbedfb89ead",
+        "sha256_in_prefix": "62a009a3043fba34bc9149cd7c1966f226ca63b922e6fbb69d773fbedfb89ead",
+        "size_in_bytes": 293
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/rev_parse",
+        "path_type": "hardlink",
+        "sha256": "cbd88ce47e903f10cb12818ef43e2a48c06e0f0e27cf5f7a73954c7e50b5ada9",
+        "sha256_in_prefix": "cbd88ce47e903f10cb12818ef43e2a48c06e0f0e27cf5f7a73954c7e50b5ada9",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/show_empty_commit",
+        "path_type": "hardlink",
+        "sha256": "c5e2a834238550f65c4b3b55de894a4aceaed787d5747c239e41982ec11c667f",
+        "sha256_in_prefix": "c5e2a834238550f65c4b3b55de894a4aceaed787d5747c239e41982ec11c667f",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/uncommon_branch_prefix_FETCH_HEAD",
+        "path_type": "hardlink",
+        "sha256": "34edfa0c1e075a5e2c3a2b11e84745ae84c36a403ee173b1da4938945408b224",
+        "sha256_in_prefix": "34edfa0c1e075a5e2c3a2b11e84745ae84c36a403ee173b1da4938945408b224",
+        "size_in_bytes": 603
+      },
+      {
+        "_path": "site-packages/git/test/fixtures/uncommon_branch_prefix_stderr",
+        "path_type": "hardlink",
+        "sha256": "e3eac9957bcfbbed41ca3673b145095c5aee3d1c5a9fb0b9b2c36d33ba996dea",
+        "sha256_in_prefix": "e3eac9957bcfbbed41ca3673b145095c5aee3d1c5a9fb0b9b2c36d33ba996dea",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/git/test/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "936c4c453f450b49b7c97fe230a683732bae65ed2d192afde68ae4dd539a7969",
+        "sha256_in_prefix": "936c4c453f450b49b7c97fe230a683732bae65ed2d192afde68ae4dd539a7969",
+        "size_in_bytes": 414
+      },
+      {
+        "_path": "site-packages/git/test/lib/asserts.py",
+        "path_type": "hardlink",
+        "sha256": "ffdb0e507a2978efb73d93a4c4c5df4d6693c713da5b09a99c055a0f1a5c6969",
+        "sha256_in_prefix": "ffdb0e507a2978efb73d93a4c4c5df4d6693c713da5b09a99c055a0f1a5c6969",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "site-packages/git/test/lib/helper.py",
+        "path_type": "hardlink",
+        "sha256": "4c8ebda5dc74c483217f33b3043077070a8fbcfb32929f5b5178b2c360745ddf",
+        "sha256_in_prefix": "4c8ebda5dc74c483217f33b3043077070a8fbcfb32929f5b5178b2c360745ddf",
+        "size_in_bytes": 13592
+      },
+      {
+        "_path": "site-packages/git/test/performance/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/git/test/performance/lib.py",
+        "path_type": "hardlink",
+        "sha256": "a9289c4a2c91237d2b3f7105795a1ebc2fec0438170c5b5928816bfc8933f388",
+        "sha256_in_prefix": "a9289c4a2c91237d2b3f7105795a1ebc2fec0438170c5b5928816bfc8933f388",
+        "size_in_bytes": 2427
+      },
+      {
+        "_path": "site-packages/git/test/performance/test_commit.py",
+        "path_type": "hardlink",
+        "sha256": "c2cf0e45cbe0de1d1e5e42361bb6b83849794051bef6cd8081fd2eb7ff2c52a5",
+        "sha256_in_prefix": "c2cf0e45cbe0de1d1e5e42361bb6b83849794051bef6cd8081fd2eb7ff2c52a5",
+        "size_in_bytes": 3732
+      },
+      {
+        "_path": "site-packages/git/test/performance/test_odb.py",
+        "path_type": "hardlink",
+        "sha256": "9276c386adac45a830c861ca43bb8d64b58df1bcd8b7f545e9b36e72838de9d2",
+        "sha256_in_prefix": "9276c386adac45a830c861ca43bb8d64b58df1bcd8b7f545e9b36e72838de9d2",
+        "size_in_bytes": 2651
+      },
+      {
+        "_path": "site-packages/git/test/performance/test_streams.py",
+        "path_type": "hardlink",
+        "sha256": "62b891bd9f22fb284cb50e54772194b7e5fe7ca85275d002c2d4f97b4f5b0f21",
+        "sha256_in_prefix": "62b891bd9f22fb284cb50e54772194b7e5fe7ca85275d002c2d4f97b4f5b0f21",
+        "size_in_bytes": 5816
+      },
+      {
+        "_path": "site-packages/git/test/test_actor.py",
+        "path_type": "hardlink",
+        "sha256": "d5b626ad3c160184ff423f65f5c85bbee23c9cdb4763ac869434490c312af40d",
+        "sha256_in_prefix": "d5b626ad3c160184ff423f65f5c85bbee23c9cdb4763ac869434490c312af40d",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "site-packages/git/test/test_base.py",
+        "path_type": "hardlink",
+        "sha256": "93a2399c6ed9781098a57c22dc75ff9af51115e960bd0172b39a5655047a923c",
+        "sha256_in_prefix": "93a2399c6ed9781098a57c22dc75ff9af51115e960bd0172b39a5655047a923c",
+        "size_in_bytes": 5649
+      },
+      {
+        "_path": "site-packages/git/test/test_blob.py",
+        "path_type": "hardlink",
+        "sha256": "06ce055a47bd4a3cf1d3a109b86f618754f9a81809104cf868109caf7716f4bd",
+        "sha256_in_prefix": "06ce055a47bd4a3cf1d3a109b86f618754f9a81809104cf868109caf7716f4bd",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "site-packages/git/test/test_commit.py",
+        "path_type": "hardlink",
+        "sha256": "23d6c76a277a6c047dbdd118c982f13f40dfa2c9f4bc9ff29426ffafe058b6d2",
+        "sha256_in_prefix": "23d6c76a277a6c047dbdd118c982f13f40dfa2c9f4bc9ff29426ffafe058b6d2",
+        "size_in_bytes": 15442
+      },
+      {
+        "_path": "site-packages/git/test/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "65b523944c262002a5a5ba62266f258b33546a8a712dfb25cec1e21ed89a24c6",
+        "sha256_in_prefix": "65b523944c262002a5a5ba62266f258b33546a8a712dfb25cec1e21ed89a24c6",
+        "size_in_bytes": 16611
+      },
+      {
+        "_path": "site-packages/git/test/test_db.py",
+        "path_type": "hardlink",
+        "sha256": "7bd50d75dc907e86be933668f97cabc15b988aaf3cecd52462b2bcc19913bbd3",
+        "sha256_in_prefix": "7bd50d75dc907e86be933668f97cabc15b988aaf3cecd52462b2bcc19913bbd3",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "site-packages/git/test/test_diff.py",
+        "path_type": "hardlink",
+        "sha256": "e3da44b57b7a2939b77c74f7c740b537b7a1fa5538158d69183099f3e93d6e9c",
+        "sha256_in_prefix": "e3da44b57b7a2939b77c74f7c740b537b7a1fa5538158d69183099f3e93d6e9c",
+        "size_in_bytes": 15797
+      },
+      {
+        "_path": "site-packages/git/test/test_docs.py",
+        "path_type": "hardlink",
+        "sha256": "5d96675c6ef26be96275d332dfd028e98b6c46f618de95ca3105c05b7826ba52",
+        "sha256_in_prefix": "5d96675c6ef26be96275d332dfd028e98b6c46f618de95ca3105c05b7826ba52",
+        "size_in_bytes": 25340
+      },
+      {
+        "_path": "site-packages/git/test/test_exc.py",
+        "path_type": "hardlink",
+        "sha256": "d030583626157cf56514a611ceab286542677f49508940e676b44820759e4a51",
+        "sha256_in_prefix": "d030583626157cf56514a611ceab286542677f49508940e676b44820759e4a51",
+        "size_in_bytes": 5123
+      },
+      {
+        "_path": "site-packages/git/test/test_fun.py",
+        "path_type": "hardlink",
+        "sha256": "6bdd5780693e60fc2580911cfa0cb6b48fe2952ab6f57490132c3073e9039c6d",
+        "sha256_in_prefix": "6bdd5780693e60fc2580911cfa0cb6b48fe2952ab6f57490132c3073e9039c6d",
+        "size_in_bytes": 10456
+      },
+      {
+        "_path": "site-packages/git/test/test_git.py",
+        "path_type": "hardlink",
+        "sha256": "27177c81dd0d2829d63cfd2af576d175a32ce9905bf311da35150b61a02e5919",
+        "sha256_in_prefix": "27177c81dd0d2829d63cfd2af576d175a32ce9905bf311da35150b61a02e5919",
+        "size_in_bytes": 11164
+      },
+      {
+        "_path": "site-packages/git/test/test_index.py",
+        "path_type": "hardlink",
+        "sha256": "4a84f94915e76ec21353dcd391b0ab50d5219c6a987abdd3ec722cdced42f695",
+        "sha256_in_prefix": "4a84f94915e76ec21353dcd391b0ab50d5219c6a987abdd3ec722cdced42f695",
+        "size_in_bytes": 37348
+      },
+      {
+        "_path": "site-packages/git/test/test_reflog.py",
+        "path_type": "hardlink",
+        "sha256": "bdf23e3500ad9c6949114b58474fe4ed8d47738a5943917f4f84f8f61c529cd5",
+        "sha256_in_prefix": "bdf23e3500ad9c6949114b58474fe4ed8d47738a5943917f4f84f8f61c529cd5",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "site-packages/git/test/test_refs.py",
+        "path_type": "hardlink",
+        "sha256": "dab366f47749653597c7bef92471bf47d3dde57d36d8843d0b609b3fff6f0e81",
+        "sha256_in_prefix": "dab366f47749653597c7bef92471bf47d3dde57d36d8843d0b609b3fff6f0e81",
+        "size_in_bytes": 23357
+      },
+      {
+        "_path": "site-packages/git/test/test_remote.py",
+        "path_type": "hardlink",
+        "sha256": "a5dada85b0624b9d77992e2804b304dbea40b20d1a302607e4ea18681f5f0f4e",
+        "sha256_in_prefix": "a5dada85b0624b9d77992e2804b304dbea40b20d1a302607e4ea18681f5f0f4e",
+        "size_in_bytes": 27019
+      },
+      {
+        "_path": "site-packages/git/test/test_repo.py",
+        "path_type": "hardlink",
+        "sha256": "2e480963f302e05ff66518320d9ff32108b1bafddd70cb8d9193f863d0a10256",
+        "sha256_in_prefix": "2e480963f302e05ff66518320d9ff32108b1bafddd70cb8d9193f863d0a10256",
+        "size_in_bytes": 40101
+      },
+      {
+        "_path": "site-packages/git/test/test_stats.py",
+        "path_type": "hardlink",
+        "sha256": "aa617694bd705b4b44775ec4fad9239a93c5557ce34447fb296e493024d0e198",
+        "sha256_in_prefix": "aa617694bd705b4b44775ec4fad9239a93c5557ce34447fb296e493024d0e198",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "site-packages/git/test/test_submodule.py",
+        "path_type": "hardlink",
+        "sha256": "cb2322b03fba507d089b8b00286806d574cd3080536ece5b440cfede2662bcec",
+        "sha256_in_prefix": "cb2322b03fba507d089b8b00286806d574cd3080536ece5b440cfede2662bcec",
+        "size_in_bytes": 41981
+      },
+      {
+        "_path": "site-packages/git/test/test_tree.py",
+        "path_type": "hardlink",
+        "sha256": "9d1e4e01064b86fee4212a0bdd13bca6991701b285633dd794f0310015356f8a",
+        "sha256_in_prefix": "9d1e4e01064b86fee4212a0bdd13bca6991701b285633dd794f0310015356f8a",
+        "size_in_bytes": 4046
+      },
+      {
+        "_path": "site-packages/git/test/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "056105a27132e596ac0af351296a9fa9f9c4437c151d5b4caa75a4a9f99fa802",
+        "sha256_in_prefix": "056105a27132e596ac0af351296a9fa9f9c4437c151d5b4caa75a4a9f99fa802",
+        "size_in_bytes": 9308
+      },
+      {
+        "_path": "site-packages/git/util.py",
+        "path_type": "hardlink",
+        "sha256": "b895f4438157c8560185140f5a3e826dee4a24223ba6f4333a7d304d216db8a1",
+        "sha256_in_prefix": "b895f4438157c8560185140f5a3e826dee4a24223ba6f4333a7d304d216db8a1",
+        "size_in_bytes": 31606
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/cmd.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/compat.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/config.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/db.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/diff.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/exc.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/index/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/index/__pycache__/base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/index/__pycache__/fun.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/index/__pycache__/typ.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/index/__pycache__/util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/blob.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/commit.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/fun.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/submodule/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/submodule/__pycache__/base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/submodule/__pycache__/root.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/submodule/__pycache__/util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/tag.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/tree.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/objects/__pycache__/util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/head.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/log.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/reference.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/remote.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/symbolic.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/refs/__pycache__/tag.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/remote.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/repo/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/repo/__pycache__/base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/repo/__pycache__/fun.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/fixtures/__pycache__/cat_file.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/lib/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/lib/__pycache__/asserts.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/lib/__pycache__/helper.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/performance/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/performance/__pycache__/lib.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/performance/__pycache__/test_commit.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/performance/__pycache__/test_odb.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/performance/__pycache__/test_streams.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_actor.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_blob.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_commit.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_config.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_db.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_diff.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_docs.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_exc.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_fun.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_git.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_index.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_reflog.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_refs.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_remote.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_repo.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_stats.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_submodule.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_tree.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/test/__pycache__/test_util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/git/__pycache__/util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 353871,
+  "subdir": "noarch",
+  "timestamp": 1573707578326,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/gitpython-3.0.5-py_0.tar.bz2",
+  "version": "3.0.5"
+}

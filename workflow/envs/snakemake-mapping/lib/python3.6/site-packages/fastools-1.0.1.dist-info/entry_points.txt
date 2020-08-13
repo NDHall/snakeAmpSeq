@@ -1,0 +1,4 @@
+[console_scripts]
+fastools = fastools.cli:main
+split_fasta = fastools.split_fasta:main
+

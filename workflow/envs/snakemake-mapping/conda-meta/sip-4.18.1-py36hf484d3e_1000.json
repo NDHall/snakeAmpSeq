@@ -1,0 +1,104 @@
+{
+  "arch": "x86_64",
+  "build": "py36hf484d3e_1000",
+  "build_number": 1000,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/ndh0004/anaconda3/pkgs/sip-4.18.1-py36hf484d3e_1000",
+  "features": "",
+  "files": [
+    "bin/sip",
+    "include/python3.6m/sip.h",
+    "lib/python3.6/site-packages/__pycache__/sipconfig.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.pyc",
+    "lib/python3.6/site-packages/sip.pyi",
+    "lib/python3.6/site-packages/sip.so",
+    "lib/python3.6/site-packages/sipconfig.py",
+    "lib/python3.6/site-packages/sipdistutils.py"
+  ],
+  "fn": "sip-4.18.1-py36hf484d3e_1000.tar.bz2",
+  "license": "GPL-3.0",
+  "link": {
+    "source": "/home/ndh0004/anaconda3/pkgs/sip-4.18.1-py36hf484d3e_1000",
+    "type": 1
+  },
+  "md5": "c93658123cedee29d3cc5536658af47f",
+  "name": "sip",
+  "package_tarball_full_path": "/home/ndh0004/anaconda3/pkgs/sip-4.18.1-py36hf484d3e_1000.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/sip",
+        "path_type": "hardlink",
+        "sha256": "ae3c859a3d7ddeea0056f4b3d9167769de4595cde475358476f1daee2b3611c6",
+        "sha256_in_prefix": "ae3c859a3d7ddeea0056f4b3d9167769de4595cde475358476f1daee2b3611c6",
+        "size_in_bytes": 418648
+      },
+      {
+        "_path": "include/python3.6m/sip.h",
+        "path_type": "hardlink",
+        "sha256": "4bb5b5668ccb46db3285977936a0cce3c35971308a0cc771eec423077a2bb617",
+        "sha256_in_prefix": "4bb5b5668ccb46db3285977936a0cce3c35971308a0cc771eec423077a2bb617",
+        "size_in_bytes": 56263
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/sipconfig.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "794cd0bcb9700f83becdcbac8121733a77cdd94cdb99cdf1d269335fd8d8f6a4",
+        "sha256_in_prefix": "794cd0bcb9700f83becdcbac8121733a77cdd94cdb99cdf1d269335fd8d8f6a4",
+        "size_in_bytes": 62653
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a47e8d2114cb5e3f4a9e1283220bd853e8d69a0b14b1b8f462e89eb83dd990e4",
+        "sha256_in_prefix": "a47e8d2114cb5e3f4a9e1283220bd853e8d69a0b14b1b8f462e89eb83dd990e4",
+        "size_in_bytes": 5120
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sip.pyi",
+        "path_type": "hardlink",
+        "sha256": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "sha256_in_prefix": "61bfca5a13eeb20c7f282bdf9d399fa921509b6e23d7f1169ea13c9090d1de35",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sip.so",
+        "path_type": "hardlink",
+        "sha256": "3d9ae3d30a4b5df0bb48ef48e07db603ed8046e71b0ab93553fa953e81434377",
+        "sha256_in_prefix": "3d9ae3d30a4b5df0bb48ef48e07db603ed8046e71b0ab93553fa953e81434377",
+        "size_in_bytes": 127920
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sipconfig.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "01026d1c608ea24a49e71c91f778551be4ab8afb83515b40b058524b4e106753",
+        "sha256_in_prefix": "dec26d6543cdcad1e718c503de716e13da1abc5d9ed3df3a03834f85b6a829f8",
+        "size_in_bytes": 96410
+      },
+      {
+        "_path": "lib/python3.6/site-packages/sipdistutils.py",
+        "path_type": "hardlink",
+        "sha256": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "sha256_in_prefix": "24e71a82ecf970aee1d609bbb7eab88fe5eb91ef589276f5dfb6dd388297fd79",
+        "size_in_bytes": 6041
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 283587,
+  "subdir": "linux-64",
+  "timestamp": 1545181516060,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sip-4.18.1-py36hf484d3e_1000.tar.bz2",
+  "version": "4.18.1"
+}

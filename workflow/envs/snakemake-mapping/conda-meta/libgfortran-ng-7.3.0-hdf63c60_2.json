@@ -1,0 +1,85 @@
+{
+  "arch": "x86_64",
+  "build": "hdf63c60_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/ndh0004/anaconda3/pkgs/libgfortran-ng-7.3.0-hdf63c60_2",
+  "features": "",
+  "files": [
+    "lib/libgfortran.so",
+    "lib/libgfortran.so.4",
+    "lib/libgfortran.so.4.0.0",
+    "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+    "x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.so",
+    "x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.so.4",
+    "x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.so.4.0.0"
+  ],
+  "fn": "libgfortran-ng-7.3.0-hdf63c60_2.tar.bz2",
+  "license": "GPL-3.0-with-GCC-exception",
+  "link": {
+    "source": "/home/ndh0004/anaconda3/pkgs/libgfortran-ng-7.3.0-hdf63c60_2",
+    "type": 1
+  },
+  "md5": "1efe3273fbe3a9aae525fc2d0f6781fd",
+  "name": "libgfortran-ng",
+  "package_tarball_full_path": "/home/ndh0004/anaconda3/pkgs/libgfortran-ng-7.3.0-hdf63c60_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgfortran.so",
+        "path_type": "softlink",
+        "sha256": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "size_in_bytes": 5959272
+      },
+      {
+        "_path": "lib/libgfortran.so.4",
+        "path_type": "softlink",
+        "sha256": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "size_in_bytes": 5959272
+      },
+      {
+        "_path": "lib/libgfortran.so.4.0.0",
+        "path_type": "hardlink",
+        "sha256": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "sha256_in_prefix": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "size_in_bytes": 5959272
+      },
+      {
+        "_path": "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.so",
+        "path_type": "softlink",
+        "sha256": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "size_in_bytes": 5959272
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.so.4",
+        "path_type": "softlink",
+        "sha256": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "size_in_bytes": 5959272
+      },
+      {
+        "_path": "x86_64-conda_cos6-linux-gnu/sysroot/lib/libgfortran.so.4.0.0",
+        "path_type": "softlink",
+        "sha256": "7adc9a50474147660462ee65efed38d5e00c0c30f565b672adb72de893ef4b07",
+        "size_in_bytes": 5959272
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 1754212,
+  "subdir": "linux-64",
+  "timestamp": 1570987725346,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-7.3.0-hdf63c60_2.tar.bz2",
+  "version": "7.3.0"
+}

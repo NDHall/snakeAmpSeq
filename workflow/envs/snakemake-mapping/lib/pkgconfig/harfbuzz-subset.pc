@@ -1,0 +1,12 @@
+prefix=/home/ndh0004/anaconda3/envs/snakemake-mapping
+exec_prefix=/home/ndh0004/anaconda3/envs/snakemake-mapping
+libdir=/home/ndh0004/anaconda3/envs/snakemake-mapping/lib
+includedir=/home/ndh0004/anaconda3/envs/snakemake-mapping/include
+
+Name: harfbuzz
+Description: HarfBuzz font subsetter
+Version: 2.4.0
+
+Requires: harfbuzz
+Libs: -L${libdir} -lharfbuzz-subset
+Cflags: -I${includedir}/harfbuzz

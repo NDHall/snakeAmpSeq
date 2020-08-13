@@ -1,0 +1,84 @@
+{
+  "arch": "x86_64",
+  "build": "h516909a_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0"
+  ],
+  "extracted_package_dir": "/home/ndh0004/anaconda3/pkgs/yaml-0.2.2-h516909a_1",
+  "features": "",
+  "files": [
+    "include/yaml.h",
+    "lib/libyaml-0.so.2",
+    "lib/libyaml-0.so.2.0.6",
+    "lib/libyaml.a",
+    "lib/libyaml.so",
+    "lib/pkgconfig/yaml-0.1.pc"
+  ],
+  "fn": "yaml-0.2.2-h516909a_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/ndh0004/anaconda3/pkgs/yaml-0.2.2-h516909a_1",
+    "type": 1
+  },
+  "md5": "6517b4fb410bdcc00f4d03fff58ecd12",
+  "name": "yaml",
+  "package_tarball_full_path": "/home/ndh0004/anaconda3/pkgs/yaml-0.2.2-h516909a_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/yaml.h",
+        "path_type": "hardlink",
+        "sha256": "576aad9bbb95b9cadba3cae54d8180272ff8d8d9547f3a1afdc9ce45b0b0eb77",
+        "sha256_in_prefix": "576aad9bbb95b9cadba3cae54d8180272ff8d8d9547f3a1afdc9ce45b0b0eb77",
+        "size_in_bytes": 54355
+      },
+      {
+        "_path": "lib/libyaml-0.so.2",
+        "path_type": "softlink",
+        "sha256": "1e28d3d225335ef6d9294326aa352cc599f1a566f3e2f1686465d1e2d8bd275f",
+        "size_in_bytes": 125064
+      },
+      {
+        "_path": "lib/libyaml-0.so.2.0.6",
+        "path_type": "hardlink",
+        "sha256": "1e28d3d225335ef6d9294326aa352cc599f1a566f3e2f1686465d1e2d8bd275f",
+        "sha256_in_prefix": "1e28d3d225335ef6d9294326aa352cc599f1a566f3e2f1686465d1e2d8bd275f",
+        "size_in_bytes": 125064
+      },
+      {
+        "_path": "lib/libyaml.a",
+        "path_type": "hardlink",
+        "sha256": "d90e82cb4abd0fb388f3b08fd86039d402c71a5f6cb4e39646fcccc8925bc54c",
+        "sha256_in_prefix": "d90e82cb4abd0fb388f3b08fd86039d402c71a5f6cb4e39646fcccc8925bc54c",
+        "size_in_bytes": 174608
+      },
+      {
+        "_path": "lib/libyaml.so",
+        "path_type": "softlink",
+        "sha256": "1e28d3d225335ef6d9294326aa352cc599f1a566f3e2f1686465d1e2d8bd275f",
+        "size_in_bytes": 125064
+      },
+      {
+        "_path": "lib/pkgconfig/yaml-0.1.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "ac8eebb31f7103799dda84a4c47c5b8449f1f247932df4aa4cd91f39a2204e2c",
+        "sha256_in_prefix": "669f5cc650d801e9be793114db47787cc9a64d7e33e87edc210a11952b72ebfe",
+        "size_in_bytes": 240
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 83859,
+  "subdir": "linux-64",
+  "timestamp": 1575328286025,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/yaml-0.2.2-h516909a_1.tar.bz2",
+  "version": "0.2.2"
+}
