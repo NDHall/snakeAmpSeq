@@ -1,4 +1,12 @@
+
+
 snakeAmpSeq: an adaptable pipline for the detection of target site mutations in *Poa annua*
+----------------------------------------------------------------------------
+
+
+![logo](https://github.com/NDHall/snakeAmpSeq/blob/master/resources/media/slim_green_logo.png)
+
+
 -----------------------------------------------
 
 snakeAmpSeq is a pipeline designed to take amplicon sequencing results, clean them with fastp,
