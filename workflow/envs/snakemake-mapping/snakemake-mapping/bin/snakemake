@@ -1,4 +1,4 @@
-#!/home/ndh0004/anaconda3/envs/snakemake-mapping/bin/python3.6
+#!workflow/envs/snakemake-mapping/snakemake-mapping/bin/python3.6
 # -*- coding: utf-8 -*-
 import re
 import sys
