@@ -62,13 +62,19 @@ fi
 #==============================================
 
 conda_path=$( which anaconda  )
+
+if [ $( echo ${conda_path} |wc -c ) -lt 6 ]
+then
+conda_path=$( which conda )
+fi
+
 conda_count=$( echo ${conda_path} | wc -c )
 conda_dir=$( echo ${conda_path} | rev |cut -d'/' -f 3- |rev )
 
 if [ ${conda_count} -lt 6 ];
 then
 	echo "\
-	This program requires anaconda3 to be installed
+	This program requires neither conda or nor anaconda found in pathwgigit
 	"&& exit
 fi
 
@@ -79,7 +85,7 @@ set -x
 set -e 
 # activate the conda env
 source ${conda_dir}/etc/profile.d/conda.sh
-conda activate workflow/envs/snakemake-mapping/snakemake-mapping
+conda activate ${conda_dir}/envs/snakemake-mapping/
 
 # get the stems we need from refs:
 
