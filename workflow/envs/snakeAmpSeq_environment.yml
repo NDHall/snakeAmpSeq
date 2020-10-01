@@ -12,5 +12,6 @@ dependencies:
   - pip:
     - biopython==1.72
     - fastools==1.0.1
+    - pysam
 
 
