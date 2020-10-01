@@ -6,18 +6,11 @@ channels:
 dependencies:
   - bedtools
   - bowtie2
+  - fastp
   - samtools
   - snakemake-minimal=5.4.5
   - pip:
     - biopython==1.72
-    - configparser==3.5.0
-    - demultiplex==1.1.0
-    - dict-trie==1.0.1
     - fastools==1.0.1
-    - idna==2.7
-    - jit-open==0.0.4
-    - python-levenshtein==0.12.0
-    - requests==2.19.1
-    - tssv==1.0.3
-    - urllib3==1.23
+
 
