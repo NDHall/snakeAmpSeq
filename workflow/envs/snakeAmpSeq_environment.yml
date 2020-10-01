@@ -4,10 +4,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - bcftools=1.9
   - bedtools
   - bowtie2
-  - bwa=0.7.17
   - samtools
   - snakemake-minimal=5.4.5
   - pip:
