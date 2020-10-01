@@ -7,6 +7,7 @@ dependencies:
   - bcftools=1.9
   - bowtie2
   - bwa=0.7.17
+  - samtools
   - snakemake-minimal=5.4.5
   - pip:
     - biopython==1.72
