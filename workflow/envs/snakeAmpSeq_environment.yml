@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - bcftools=1.9
+  - bedtools
   - bowtie2
   - bwa=0.7.17
   - samtools
